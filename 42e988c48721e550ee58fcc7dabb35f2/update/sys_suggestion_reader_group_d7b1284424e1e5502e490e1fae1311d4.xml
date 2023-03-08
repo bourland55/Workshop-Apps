@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_suggestion_reader_group">
+    <sys_suggestion_reader_group action="INSERT_OR_UPDATE">
+        <click_in_mode>false</click_in_mode>
+        <context_config_id display_value="Army Learning Library AI Search Configuration">d3b1284412e1e5508b49ea275dee17d4</context_config_id>
+        <limit>5</limit>
+        <order>600</order>
+        <section_header>Suggested</section_header>
+        <suggestion_type>Search-based Suggested Results Reader Group for Starter Workspace AI Search Configuration</suggestion_type>
+        <sys_class_name>sys_suggestion_reader_group</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 04:06:59</sys_created_on>
+        <sys_id>d7b1284424e1e5502e490e1fae1311d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search-based Suggested Results Reader Group for Starter Workspace AI Search Configuration</sys_name>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name>sys_suggestion_reader_group_d7b1284424e1e5502e490e1fae1311d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 04:06:59</sys_updated_on>
+    </sys_suggestion_reader_group>
+</record_update>

@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description>creates LAT record and process</description>
+        <internal_name>lat_main</internal_name>
+        <label_cache>[{"name":"Created_1.current.sustain_or_improve","label":"Trigger - Record Created➛Recommendation Record➛Sustain or Improve","reference":"","reference_display":"Sustain or Improve","type":"choice","base_type":"choice","parent_table_name":"x_snc_army_learn_0_recommendation","column_name":"sustain_or_improve","choices":[{"label":"-- None --","used":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"used":false,"label":"Sustain","image":"","rawLabel":"Sustain","selected":false,"missing":false,"reference":false,"value":"sustain","parameters":{"name":"x_snc_army_learn_0_recommendation"}},{"used":false,"label":"Improve","image":"","rawLabel":"Improve","selected":false,"missing":false,"reference":false,"value":"improve","parameters":{"name":"x_snc_army_learn_0_recommendation"}}]},{"name":"Created_1.current.event.title","label":"Trigger - Record Created➛Recommendation Record➛Event➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_snc_army_learn_0_army_event","column_name":"title"},{"name":"Created_1.current.sn_esign_esignature_configuration","label":"Trigger - Record Created➛Recommendation Record➛E-signature template","reference":"sn_esign_configuration","reference_display":"E-signature Template","type":"reference","base_type":"reference","parent_table_name":"x_snc_army_learn_0_recommendation","column_name":"sn_esign_esignature_configuration"},{"name":"Created_1.current","label":"Trigger - Record Created➛Recommendation Record","reference":"x_snc_army_learn_0_recommendation","reference_display":"Recommendation","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.event","label":"Trigger - Record Created➛Recommendation Record➛Event","reference":"x_snc_army_learn_0_army_event","reference_display":"Army Event","type":"reference","base_type":"reference","parent_table_name":"x_snc_army_learn_0_recommendation","column_name":"event"},{"name":"Created_1.current.recommendation","label":"Trigger - Record Created➛Recommendation Record➛Recommendation","reference":"","reference_display":"Recommendation","type":"string","base_type":"string","parent_table_name":"x_snc_army_learn_0_recommendation","column_name":"recommendation"}]</label_cache>
+        <master_snapshot>cff7fa0487652950ee58fcc7dabb3553</master_snapshot>
+        <name>LAT Main</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>92f4874087e52950ee58fcc7dabb35ad</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 14:59:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8017f68087652950ee58fcc7dabb35c6</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>LAT Main</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name>sys_hub_flow_8017f68087652950ee58fcc7dabb35c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 16:00:09</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=8017f68087652950ee58fcc7dabb35c6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8017f68087652950ee58fcc7dabb35c6"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_army_learn_0_recommendation">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 16:00:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>92f4874087e52950ee58fcc7dabb35ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 16:00:08</sys_updated_on>
+        <table>x_snc_army_learn_0_recommendation</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>8017f68087652950ee58fcc7dabb35c6</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 16:00:08</sys_created_on>
+        <sys_id>5ef4874087e52950ee58fcc7dabb35ad</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 16:00:08</sys_updated_on>
+        <trigger display_value="">92f4874087e52950ee58fcc7dabb35ad</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=8017f68087652950ee58fcc7dabb35c6^sys_idNOT IN5ef4874087e52950ee58fcc7dabb35ad"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=8017f68087652950ee58fcc7dabb35c6^sys_idNOT INcae7760487652950ee58fcc7dabb35ff"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="LAT Main">8017f68087652950ee58fcc7dabb35c6</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 15:03:03</sys_created_on>
+        <sys_id>cae7760487652950ee58fcc7dabb35ff</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 16:00:09</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cae7760487652950ee58fcc7dabb35ff"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>cae7760487652950ee58fcc7dabb35ff</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 15:03:03</sys_created_on>
+        <sys_id>0ee7b60487652950ee58fcc7dabb3500</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 15:03:03</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>cae7760487652950ee58fcc7dabb35ff</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 15:03:03</sys_created_on>
+        <sys_id>46e7b60487652950ee58fcc7dabb3501</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 15:03:03</sys_updated_on>
+        <value>x_snc_army_learn_0_recommendation</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=8017f68087652950ee58fcc7dabb35c6"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=8017f68087652950ee58fcc7dabb35c6^sys_idNOT INcc17f68087652950ee58fcc7dabb35c6"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>8017f68087652950ee58fcc7dabb35c6</id>
+        <name>LAT Main</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 14:59:21</sys_created_on>
+        <sys_id>cc17f68087652950ee58fcc7dabb35c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 14:59:21</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=cc17f68087652950ee58fcc7dabb35c6"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=8017f68087652950ee58fcc7dabb35c6^sys_idNOT IN0ae7760487652950ee58fcc7dabb35fa,8ee77ac087652950ee58fcc7dabb3578"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="LAT Main">8017f68087652950ee58fcc7dabb35c6</model>
+        <model_id>8017f68087652950ee58fcc7dabb35c6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_8017f68087652950ee58fcc7dabb35c6</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 15:03:03</sys_created_on>
+        <sys_id>0ae7760487652950ee58fcc7dabb35fa</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 16:00:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="LAT Main">8017f68087652950ee58fcc7dabb35c6</model>
+        <model_id>8017f68087652950ee58fcc7dabb35c6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_8017f68087652950ee58fcc7dabb35c6</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 15:03:03</sys_created_on>
+        <sys_id>8ee77ac087652950ee58fcc7dabb3578</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 16:00:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=8017f68087652950ee58fcc7dabb35c6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8017f68087652950ee58fcc7dabb35c6"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=8017f68087652950ee58fcc7dabb35c6^sys_idNOT IN0ae7b60487652950ee58fcc7dabb3512"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="LAT Main">8017f68087652950ee58fcc7dabb35c6</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 15:03:03</sys_created_on>
+        <sys_id>0ae7b60487652950ee58fcc7dabb3512</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 16:00:09</sys_updated_on>
+        <ui_id>7aff0449-b71b-4522-aaa5-b9edd329f7c4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0ae7b60487652950ee58fcc7dabb3512"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0ae7b60487652950ee58fcc7dabb3512</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 15:03:03</sys_created_on>
+        <sys_id>02e7b60487652950ee58fcc7dabb3515</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 15:03:03</sys_updated_on>
+        <value>x_snc_army_learn_0_learning_assessments</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0ae7b60487652950ee58fcc7dabb3512"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>0ae7b60487652950ee58fcc7dabb3512</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 15:03:03</sys_created_on>
+        <sys_id>c6e7b60487652950ee58fcc7dabb3514</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 15:03:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>0ae7b60487652950ee58fcc7dabb3512</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 15:03:03</sys_created_on>
+        <sys_id>8ee7b60487652950ee58fcc7dabb3514</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 15:59:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>recommendation={{Created_1.current}}^event={{Created_1.current.event}}^stage=Initial Submission^short_description= {{Created_1.current.event.title}} and {{Created_1.current.sustain_or_improve}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0ae7b60487652950ee58fcc7dabb3512"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0ae7b60487652950ee58fcc7dabb3512"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=8017f68087652950ee58fcc7dabb35c6"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=8017f68087652950ee58fcc7dabb35c6"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=8017f68087652950ee58fcc7dabb35c6"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=8017f68087652950ee58fcc7dabb35c6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_8017f68087652950ee58fcc7dabb35c6^sys_idNOT IN4ae7760487652950ee58fcc7dabb35f9,8ee7760487652950ee58fcc7dabb35fc"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8017f68087652950ee58fcc7dabb35c6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 15:03:03</sys_created_on>
+        <sys_id>4ae7760487652950ee58fcc7dabb35f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 15:03:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8017f68087652950ee58fcc7dabb35c6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 15:03:03</sys_created_on>
+        <sys_id>8ee7760487652950ee58fcc7dabb35fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 15:03:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_8017f68087652950ee58fcc7dabb35c6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_8017f68087652950ee58fcc7dabb35c6"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_8017f68087652950ee58fcc7dabb35c6"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=8017f68087652950ee58fcc7dabb35c6^sys_idNOT IN13f7fa0487652950ee58fcc7dabb3594"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"13f7fa0487652950ee58fcc7dabb3594","name":"plan","plan_signature":null}}</plan>
+        <plan_id>8017f68087652950ee58fcc7dabb35c6</plan_id>
+        <snapshot>cff7fa0487652950ee58fcc7dabb3553</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 15:03:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>13f7fa0487652950ee58fcc7dabb3594</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 16:00:08</sys_updated_on>
+        <trigger display_value="">92f4874087e52950ee58fcc7dabb35ad</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=8017f68087652950ee58fcc7dabb35c6"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>creates LAT record and process</description>
+        <internal_name>lat_main</internal_name>
+        <label_cache>[{"name":"Created_1.current.sustain_or_improve","label":"Trigger - Record Created➛Recommendation Record➛Sustain or Improve","reference":"","reference_display":"Sustain or Improve","type":"choice","base_type":"choice","parent_table_name":"x_snc_army_learn_0_recommendation","column_name":"sustain_or_improve","choices":[{"label":"-- None --","used":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"used":false,"label":"Sustain","image":"","rawLabel":"Sustain","selected":false,"missing":false,"reference":false,"value":"sustain","parameters":{"name":"x_snc_army_learn_0_recommendation"}},{"used":false,"label":"Improve","image":"","rawLabel":"Improve","selected":false,"missing":false,"reference":false,"value":"improve","parameters":{"name":"x_snc_army_learn_0_recommendation"}}]},{"name":"Created_1.current.event.title","label":"Trigger - Record Created➛Recommendation Record➛Event➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_snc_army_learn_0_army_event","column_name":"title"},{"name":"Created_1.current.sn_esign_esignature_configuration","label":"Trigger - Record Created➛Recommendation Record➛E-signature template","reference":"sn_esign_configuration","reference_display":"E-signature Template","type":"reference","base_type":"reference","parent_table_name":"x_snc_army_learn_0_recommendation","column_name":"sn_esign_esignature_configuration"},{"name":"Created_1.current","label":"Trigger - Record Created➛Recommendation Record","reference":"x_snc_army_learn_0_recommendation","reference_display":"Recommendation","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.event","label":"Trigger - Record Created➛Recommendation Record➛Event","reference":"x_snc_army_learn_0_army_event","reference_display":"Army Event","type":"reference","base_type":"reference","parent_table_name":"x_snc_army_learn_0_recommendation","column_name":"event"},{"name":"Created_1.current.recommendation","label":"Trigger - Record Created➛Recommendation Record➛Recommendation","reference":"","reference_display":"Recommendation","type":"string","base_type":"string","parent_table_name":"x_snc_army_learn_0_recommendation","column_name":"recommendation"}]</label_cache>
+        <master>true</master>
+        <name>LAT Main</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="LAT Main">8017f68087652950ee58fcc7dabb35c6</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 15:03:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cff7fa0487652950ee58fcc7dabb3553</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 16:00:08</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=cff7fa0487652950ee58fcc7dabb3553"/>
+    <sys_variable_value action="delete_multiple" query="document_key=cff7fa0487652950ee58fcc7dabb3553"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=cff7fa0487652950ee58fcc7dabb3553^sys_idNOT IN43f7fa0487652950ee58fcc7dabb3584"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="LAT Main">cff7fa0487652950ee58fcc7dabb3553</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 15:03:24</sys_created_on>
+        <sys_id>43f7fa0487652950ee58fcc7dabb3584</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 16:00:08</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=43f7fa0487652950ee58fcc7dabb3584"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>43f7fa0487652950ee58fcc7dabb3584</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 15:03:24</sys_created_on>
+        <sys_id>5ff7fa0487652950ee58fcc7dabb3585</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 15:03:24</sys_updated_on>
+        <value>x_snc_army_learn_0_recommendation</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>43f7fa0487652950ee58fcc7dabb3584</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 15:03:24</sys_created_on>
+        <sys_id>9bf7fa0487652950ee58fcc7dabb3585</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 15:03:24</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=cff7fa0487652950ee58fcc7dabb3553"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=cff7fa0487652950ee58fcc7dabb3553^sys_idNOT IN8ff7fa0487652950ee58fcc7dabb3554"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>cff7fa0487652950ee58fcc7dabb3553</id>
+        <name>LAT Main</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 15:03:23</sys_created_on>
+        <sys_id>8ff7fa0487652950ee58fcc7dabb3554</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 15:03:23</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=8ff7fa0487652950ee58fcc7dabb3554"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=cff7fa0487652950ee58fcc7dabb3553^sys_idNOT IN4ff7fa0487652950ee58fcc7dabb3570,c3f7fa0487652950ee58fcc7dabb3556"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="LAT Main">cff7fa0487652950ee58fcc7dabb3553</model>
+        <model_id>cff7fa0487652950ee58fcc7dabb3553</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_cff7fa0487652950ee58fcc7dabb3553</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 15:03:24</sys_created_on>
+        <sys_id>4ff7fa0487652950ee58fcc7dabb3570</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 16:00:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="LAT Main">cff7fa0487652950ee58fcc7dabb3553</model>
+        <model_id>cff7fa0487652950ee58fcc7dabb3553</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_cff7fa0487652950ee58fcc7dabb3553</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 15:03:23</sys_created_on>
+        <sys_id>c3f7fa0487652950ee58fcc7dabb3556</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 16:00:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=cff7fa0487652950ee58fcc7dabb3553"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cff7fa0487652950ee58fcc7dabb3553"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=cff7fa0487652950ee58fcc7dabb3553^sys_idNOT IN4bf7fa0487652950ee58fcc7dabb3582"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="LAT Main">cff7fa0487652950ee58fcc7dabb3553</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 15:03:24</sys_created_on>
+        <sys_id>4bf7fa0487652950ee58fcc7dabb3582</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 16:00:08</sys_updated_on>
+        <ui_id>7aff0449-b71b-4522-aaa5-b9edd329f7c4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4bf7fa0487652950ee58fcc7dabb3582"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4bf7fa0487652950ee58fcc7dabb3582</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 15:03:24</sys_created_on>
+        <sys_id>4ff7fa0487652950ee58fcc7dabb3583</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 15:03:24</sys_updated_on>
+        <value>x_snc_army_learn_0_learning_assessments</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4bf7fa0487652950ee58fcc7dabb3582"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>4bf7fa0487652950ee58fcc7dabb3582</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 15:03:24</sys_created_on>
+        <sys_id>0bf7fa0487652950ee58fcc7dabb3583</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 15:03:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>4bf7fa0487652950ee58fcc7dabb3582</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 15:03:24</sys_created_on>
+        <sys_id>cbf7fa0487652950ee58fcc7dabb3583</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 16:00:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>recommendation={{Created_1.current}}^event={{Created_1.current.event}}^stage=Initial Submission^short_description= {{Created_1.current.event.title}} and {{Created_1.current.sustain_or_improve}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4bf7fa0487652950ee58fcc7dabb3582"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4bf7fa0487652950ee58fcc7dabb3582"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=cff7fa0487652950ee58fcc7dabb3553"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=cff7fa0487652950ee58fcc7dabb3553"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=cff7fa0487652950ee58fcc7dabb3553"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=cff7fa0487652950ee58fcc7dabb3553"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_cff7fa0487652950ee58fcc7dabb3553^sys_idNOT IN07f7fa0487652950ee58fcc7dabb356d,4bf7fa0487652950ee58fcc7dabb3575"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_cff7fa0487652950ee58fcc7dabb3553</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 15:03:24</sys_created_on>
+        <sys_id>07f7fa0487652950ee58fcc7dabb356d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 15:03:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_cff7fa0487652950ee58fcc7dabb3553</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 15:03:24</sys_created_on>
+        <sys_id>4bf7fa0487652950ee58fcc7dabb3575</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 15:03:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_cff7fa0487652950ee58fcc7dabb3553"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_cff7fa0487652950ee58fcc7dabb3553"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_cff7fa0487652950ee58fcc7dabb3553"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>8017f68087652950ee58fcc7dabb35c6</sys_id>
+        <latest_snapshot>cff7fa0487652950ee58fcc7dabb3553</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch5-12-21-2022_01-06-2023_1054.zip</compiler_build>
+    </sys_hub_flow>
+</record_update>

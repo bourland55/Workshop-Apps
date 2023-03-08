@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="stage" table="x_snc_army_learn_0_learning_assessments" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>stage</element>
+            <name>x_snc_army_learn_0_learning_assessments</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-08 14:23:28</sys_created_on>
+            <sys_id>12deea8087252950ee58fcc7dabb3520</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>stage</sys_name>
+            <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+            <sys_update_name>sys_choice_x_snc_army_learn_0_learning_assessments_stage</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-08 14:23:28</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Initial Submission</label>
+            <language>en</language>
+            <name>x_snc_army_learn_0_learning_assessments</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-08 14:23:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dadeea8087252950ee58fcc7dabb351f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-08 14:23:28</sys_updated_on>
+            <value>Initial Submission</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>LAT Initial Assessment</label>
+            <language>en</language>
+            <name>x_snc_army_learn_0_learning_assessments</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-08 14:23:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>56deea8087252950ee58fcc7dabb352a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-08 14:23:28</sys_updated_on>
+            <value>Lat Initial Assessment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recommendation</label>
+            <language>en</language>
+            <name>x_snc_army_learn_0_learning_assessments</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-08 14:23:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1edeea8087252950ee58fcc7dabb3534</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-08 14:23:28</sys_updated_on>
+            <value>Recommendation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Action Plan Development</label>
+            <language>en</language>
+            <name>x_snc_army_learn_0_learning_assessments</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-08 14:23:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d2deea8087252950ee58fcc7dabb353f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-08 14:23:28</sys_updated_on>
+            <value>Action Plan Development</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pilot</label>
+            <language>en</language>
+            <name>x_snc_army_learn_0_learning_assessments</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-08 14:23:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1adeea8087252950ee58fcc7dabb3562</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-08 14:23:28</sys_updated_on>
+            <value>Pilot</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Implementation</label>
+            <language>en</language>
+            <name>x_snc_army_learn_0_learning_assessments</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-08 14:23:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96deea8087252950ee58fcc7dabb3579</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-08 14:23:29</sys_updated_on>
+            <value>Implementation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Final Assessment</label>
+            <language>en</language>
+            <name>x_snc_army_learn_0_learning_assessments</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-08 14:23:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5edeea8087252950ee58fcc7dabb3583</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-08 14:23:29</sys_updated_on>
+            <value>Final Assessment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Publication</label>
+            <language>en</language>
+            <name>x_snc_army_learn_0_learning_assessments</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-08 14:23:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>92deea8087252950ee58fcc7dabb35a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-08 14:23:29</sys_updated_on>
+            <value>Publication</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed</label>
+            <language>en</language>
+            <name>x_snc_army_learn_0_learning_assessments</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-08 14:23:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>12deea8087252950ee58fcc7dabb35be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-08 14:23:29</sys_updated_on>
+            <value>Closed</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

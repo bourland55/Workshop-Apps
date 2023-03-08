@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="war_fighting_functions" table="x_snc_army_learn_0_recommendation" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>war_fighting_functions</element>
+            <name>x_snc_army_learn_0_recommendation</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-08 13:41:59</sys_created_on>
+            <sys_id>6655aecc87a12950ee58fcc7dabb3561</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>war_fighting_functions</sys_name>
+            <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+            <sys_update_name>sys_choice_x_snc_army_learn_0_recommendation_war_fighting_functions</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-08 13:41:59</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>war_fighting_functions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Command and Control</label>
+            <language>en</language>
+            <name>x_snc_army_learn_0_recommendation</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-08 13:41:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ee55aecc87a12950ee58fcc7dabb3560</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-08 13:41:59</sys_updated_on>
+            <value>command_and_control</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>war_fighting_functions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Movement and Maneuver</label>
+            <language>en</language>
+            <name>x_snc_army_learn_0_recommendation</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-08 13:41:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2655aecc87a12950ee58fcc7dabb356c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-08 13:41:59</sys_updated_on>
+            <value>movement_and_maneuver</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>war_fighting_functions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Intel</label>
+            <language>en</language>
+            <name>x_snc_army_learn_0_recommendation</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-08 13:41:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea55aecc87a12950ee58fcc7dabb3576</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-08 13:41:59</sys_updated_on>
+            <value>intel</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>war_fighting_functions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fires</label>
+            <language>en</language>
+            <name>x_snc_army_learn_0_recommendation</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-08 13:41:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b255aecc87a12950ee58fcc7dabb3581</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-08 13:41:59</sys_updated_on>
+            <value>fires</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>war_fighting_functions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sustainment</label>
+            <language>en</language>
+            <name>x_snc_army_learn_0_recommendation</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-08 13:42:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7a55aecc87a12950ee58fcc7dabb358b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-08 13:42:00</sys_updated_on>
+            <value>sustainment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>war_fighting_functions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Protection</label>
+            <language>en</language>
+            <name>x_snc_army_learn_0_recommendation</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-08 13:42:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3255aecc87a12950ee58fcc7dabb3596</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-08 13:42:00</sys_updated_on>
+            <value>protection</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

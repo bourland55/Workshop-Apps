@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource">
+    <ais_datasource action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <filter/>
+        <force_late_binding>false</force_late_binding>
+        <name>Army Event Table</name>
+        <retention_policy/>
+        <source>x_snc_army_learn_0_army_event</source>
+        <sys_class_name>ais_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 04:07:16</sys_created_on>
+        <sys_id>80d1ac4487e1e550ee58fcc7dabb35a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Army Event Table</sys_name>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name>ais_datasource_80d1ac4487e1e550ee58fcc7dabb35a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 04:07:16</sys_updated_on>
+        <type>internal</type>
+    </ais_datasource>
+</record_update>

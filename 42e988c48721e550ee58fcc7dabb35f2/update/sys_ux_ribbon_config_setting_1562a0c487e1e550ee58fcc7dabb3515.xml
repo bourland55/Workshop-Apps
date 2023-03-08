@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_ribbon_config_setting">
+    <sys_ux_ribbon_config_setting action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <configuration display_value="Army Learning Library Ribbon Config">17b1284492e1e55063cae9f8c1aa6dd6</configuration>
+        <order>3000</order>
+        <ribbon display_value="Customer 360">59626c8487e1e550ee58fcc7dabb359e</ribbon>
+        <specificity>10</specificity>
+        <sys_class_name>sys_ux_ribbon_config_setting</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 04:09:50</sys_created_on>
+        <sys_id>1562a0c487e1e550ee58fcc7dabb3515</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name>sys_ux_ribbon_config_setting_1562a0c487e1e550ee58fcc7dabb3515</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 04:09:50</sys_updated_on>
+        <table>x_snc_army_learn_0_army_event</table>
+        <width>2</width>
+    </sys_ux_ribbon_config_setting>
+</record_update>
