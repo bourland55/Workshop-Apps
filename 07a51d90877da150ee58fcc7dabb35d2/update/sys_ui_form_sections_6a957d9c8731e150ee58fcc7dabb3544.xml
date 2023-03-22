@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="6a957d9c8731e150ee58fcc7dabb3544" sys_domain="global" table="x_snc_deficiency_0_deficiency_log" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-21 15:07:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a9539dc8731e150ee58fcc7dabb3562</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_deficiency_0_deficiency_log" name="x_snc_deficiency_0_deficiency_log" sys_domain="global" view="Default view">6a957d9c8731e150ee58fcc7dabb3544</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_deficiency_0_deficiency_log" sys_domain="global" view="Default view">ea957d9c8731e150ee58fcc7dabb3547</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:07:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-21 15:07:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>229539dc8731e150ee58fcc7dabb3566</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_deficiency_0_deficiency_log" name="x_snc_deficiency_0_deficiency_log" sys_domain="global" view="Default view">6a957d9c8731e150ee58fcc7dabb3544</sys_ui_form>
+            <sys_ui_section caption="TGI" display_value="TGI" name="x_snc_deficiency_0_deficiency_log" sys_domain="global" view="Default view">e29539dc8731e150ee58fcc7dabb3563</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:07:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-21 15:07:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea9539dc8731e150ee58fcc7dabb3568</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_deficiency_0_deficiency_log" name="x_snc_deficiency_0_deficiency_log" sys_domain="global" view="Default view">6a957d9c8731e150ee58fcc7dabb3544</sys_ui_form>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_snc_deficiency_0_deficiency_log" sys_domain="global" view="Default view">a69539dc8731e150ee58fcc7dabb3566</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:07:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_deficiency_0_deficiency_log</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-21 15:07:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6a957d9c8731e150ee58fcc7dabb3544</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_deficiency_0_deficiency_log</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Deficiency Reporting and Resolution" source="x_snc_deficiency_0">07a51d90877da150ee58fcc7dabb35d2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Deficiency Reporting and Resolution">07a51d90877da150ee58fcc7dabb35d2</sys_scope>
+            <sys_update_name>sys_ui_form_sections_6a957d9c8731e150ee58fcc7dabb3544</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:07:32</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <configuration display_value="Deficiency Reporting and Resolution_menu_config">f418db9c873de150ee58fcc7dabb35fb</configuration>
+        <description/>
+        <order>300</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 22:17:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>78181f9c873de150ee58fcc7dabb356e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Deficiency Record</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Deficiency Reporting and Resolution" source="x_snc_deficiency_0">07a51d90877da150ee58fcc7dabb35d2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deficiency Reporting and Resolution">07a51d90877da150ee58fcc7dabb35d2</sys_scope>
+        <sys_update_name>sys_ux_list_category_78181f9c873de150ee58fcc7dabb356e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 22:17:47</sys_updated_on>
+        <title>Deficiency Record</title>
+    </sys_ux_list_category>
+</record_update>

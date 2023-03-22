@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="corporate_worthy" label="Corporate Worthy" language="en" table="x_snc_deficiency_0_deficiency_form">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>corporate_worthy</element>
+            <help/>
+            <hint/>
+            <label>Corporate Worthy</label>
+            <language>en</language>
+            <name>x_snc_deficiency_0_deficiency_form</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-21 14:27:34</sys_created_on>
+            <sys_id>4d7c61dc87fda150ee58fcc7dabb3593</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Corporate Worthy</sys_name>
+            <sys_package display_value="Deficiency Reporting and Resolution" source="x_snc_deficiency_0">07a51d90877da150ee58fcc7dabb35d2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Deficiency Reporting and Resolution">07a51d90877da150ee58fcc7dabb35d2</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_deficiency_0_deficiency_form_corporate_worthy_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-21 14:27:39</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

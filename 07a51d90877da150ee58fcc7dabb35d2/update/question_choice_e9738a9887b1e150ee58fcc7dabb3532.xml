@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Caused By">12b2865887b1e150ee58fcc7dabb3588</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 16:08:05</sys_created_on>
+        <sys_id>e9738a9887b1e150ee58fcc7dabb3532</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Existing condition</sys_name>
+        <sys_package display_value="Deficiency Reporting and Resolution" source="x_snc_deficiency_0">07a51d90877da150ee58fcc7dabb35d2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deficiency Reporting and Resolution">07a51d90877da150ee58fcc7dabb35d2</sys_scope>
+        <sys_update_name>question_choice_e9738a9887b1e150ee58fcc7dabb3532</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 16:08:05</sys_updated_on>
+        <text>Existing condition</text>
+        <value>existing_condition</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=e9738a9887b1e150ee58fcc7dabb3532"/>
+</record_update>

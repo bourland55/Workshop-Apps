@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="Deficiency Reporting and Resolution">ab089b9c173de15042de82e8626cf88b</page>
+        <required_translations>[ {
+  "message" : "New Deficiency Log",
+  "comment" : ""
+}, {
+  "message" : "New Deficiency Record",
+  "comment" : ""
+}, {
+  "message" : "New ICN",
+  "comment" : ""
+}, {
+  "message" : "New ICN KeyOp Combined",
+  "comment" : ""
+}, {
+  "message" : "New Incident",
+  "comment" : ""
+}, {
+  "message" : "New Interaction",
+  "comment" : ""
+}, {
+  "message" : "New KeyOps",
+  "comment" : ""
+}, {
+  "message" : "New Task Group Instruction",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 22:17:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>ab089b9c893de150fad2adc5a84bf08d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Deficiency Reporting and Resolution" source="x_snc_deficiency_0">07a51d90877da150ee58fcc7dabb35d2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deficiency Reporting and Resolution">07a51d90877da150ee58fcc7dabb35d2</sys_scope>
+        <sys_update_name>sys_ux_page_property_ab089b9c893de150fad2adc5a84bf08d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 22:18:10</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_deficiency_0.ab089b9c173de15042de82e8626cf88b.root.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Interaction"},"routeInfo":{"route":"record","fields":{"table":"interaction","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"interaction","canCreate":true}}},{"label":{"translatable":true,"message":"New Incident"},"routeInfo":{"route":"record","fields":{"table":"incident","sysId":"-1"},"multiInstField":"sysId"}},{"label":{"translatable":true,"message":"New Deficiency Log"},"routeInfo":{"route":"record","fields":{"table":"x_snc_deficiency_0_deficiency_log","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_deficiency_0_deficiency_log","canCreate":true}}},{"label":{"translatable":true,"message":"New Deficiency Record"},"routeInfo":{"route":"record","fields":{"table":"x_snc_deficiency_0_deficiency_form","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_deficiency_0_deficiency_form","canCreate":true}}},{"label":{"translatable":true,"message":"New ICN"},"routeInfo":{"route":"record","fields":{"table":"x_snc_deficiency_0_icn","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_deficiency_0_icn","canCreate":true}}},{"label":{"translatable":true,"message":"New ICN KeyOp Combined"},"routeInfo":{"route":"record","fields":{"table":"x_snc_deficiency_0_icn_keyop_combined","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_deficiency_0_icn_keyop_combined","canCreate":true}}},{"label":{"translatable":true,"message":"New KeyOps"},"routeInfo":{"route":"record","fields":{"table":"x_snc_deficiency_0_keyops","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_deficiency_0_keyops","canCreate":true}}},{"label":{"translatable":true,"message":"New Task Group Instruction"},"routeInfo":{"route":"record","fields":{"table":"x_snc_deficiency_0_task_group_instruction","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_deficiency_0_task_group_instruction","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=ab089b9c893de150fad2adc5a84bf08d"/>
+</record_update>
