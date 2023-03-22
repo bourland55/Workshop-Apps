@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">63089b9cf13de150fc1d976571ec968c</canvas>
+        <component display_value="">3a64f550256090d9578ede76158e899c</component>
+        <component_props>{"variant":"header-secondary","label":"TGI","wontWrap":false,"hasNoMargin":false,"level":"1"}</component_props>
+        <h>3</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 22:17:42</sys_created_on>
+        <sys_id>a7089b9c013de15094cff81b29af128f</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Deficiency Reporting and Resolution" source="x_snc_deficiency_0">07a51d90877da150ee58fcc7dabb35d2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deficiency Reporting and Resolution">07a51d90877da150ee58fcc7dabb35d2</sys_scope>
+        <sys_update_name>par_dashboard_widget_a7089b9c013de15094cff81b29af128f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 15:35:32</sys_updated_on>
+        <visualization/>
+        <w>8</w>
+        <x>4</x>
+        <y>9</y>
+    </par_dashboard_widget>
+</record_update>

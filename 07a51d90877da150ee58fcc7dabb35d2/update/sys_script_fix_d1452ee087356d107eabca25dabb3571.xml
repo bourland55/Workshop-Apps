@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>lily deficiency</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[var keyOps = '';
+keyOps = new x_snc_deficiency_0.deficiencyUtils.getKeyOps('af9fbd9087b1e150ee58fcc7dabb35db').toString();
+
+gs.info(keyOps);
+
+]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>lily.liang</sys_created_by>
+        <sys_created_on>2023-03-22 13:14:17</sys_created_on>
+        <sys_id>d1452ee087356d107eabca25dabb3571</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>lily deficiency</sys_name>
+        <sys_package display_value="Deficiency Reporting and Resolution" source="x_snc_deficiency_0">07a51d90877da150ee58fcc7dabb35d2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deficiency Reporting and Resolution">07a51d90877da150ee58fcc7dabb35d2</sys_scope>
+        <sys_update_name>sys_script_fix_d1452ee087356d107eabca25dabb3571</sys_update_name>
+        <sys_updated_by>lily.liang</sys_updated_by>
+        <sys_updated_on>2023-03-22 13:14:17</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

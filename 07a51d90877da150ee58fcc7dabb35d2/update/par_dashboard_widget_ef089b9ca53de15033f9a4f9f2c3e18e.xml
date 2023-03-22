@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">63089b9cf13de150fc1d976571ec968c</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"configVersion":"22.1.7","scoreSize":"md","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Deficiency Log","sourceType":"table","tableOrViewName":"x_snc_deficiency_0_deficiency_log","id":"dGFibGV4X3NuY19kZWZpY2llbmN5XzBfZGVmaWNpZW5jeV9sb2cxNjc5NDU2MzE2MDg4","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"DL's","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4X3NuY19kZWZpY2llbmN5XzBfZGVmaWNpZW5jeV9sb2cxNjc5NDU2MzE2MDg4","id":"ZEdGaWJHVjRYM051WTE5a1pXWnBZMmxsYm1ONVh6QmZaR1ZtYVdOcFpXNWplVjlzYjJjeE5qYzVORFUyTXpFMk1EZzQxNjc5NDU2MzE2MzI2","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"filterConfigurations":[],"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default"}</component_props>
+        <h>12</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 22:17:41</sys_created_on>
+        <sys_id>ef089b9ca53de15033f9a4f9f2c3e18e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Deficiency Reporting and Resolution" source="x_snc_deficiency_0">07a51d90877da150ee58fcc7dabb35d2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deficiency Reporting and Resolution">07a51d90877da150ee58fcc7dabb35d2</sys_scope>
+        <sys_update_name>par_dashboard_widget_ef089b9ca53de15033f9a4f9f2c3e18e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 15:37:28</sys_updated_on>
+        <visualization/>
+        <w>1</w>
+        <x>2</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>
