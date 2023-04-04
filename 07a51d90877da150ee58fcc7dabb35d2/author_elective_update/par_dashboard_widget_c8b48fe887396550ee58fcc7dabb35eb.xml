@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">63089b9cf13de150fc1d976571ec968c</canvas>
+        <component display_value="">7219cee4e0177c3cf2e48d550ce0f71b</component>
+        <component_props>{"listTitle":"ACTIVE PRJ","table":"x_snc_deficiency_0_projects","query":"active=true","columns":"project_id","groupByField":"","limit":1,"maxColumns":5,"page":1,"highlightedValueConfigId":"","hideHighlightedValues":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideRefreshButton":false,"hideLastRefreshedText":false,"hideColumnResizing":true,"hideColumnGrouping":true,"hideColumnFiltering":true,"hideColumnSorting":false,"hidePersonalization":true,"hideColumnReorder":true,"hideDotwalk":true,"hideInlineEditing":true,"hideHighlightContent":false,"highlightContent":"{ \"patterns\": [], \"color\" : \"\" }","hideLinks":false,"hideViewAll":false,"hideCellFilter":true,"hideCheckboxHover":true,"hideFilterPanel":false,"hideFirstPage":false,"hideLastPage":false,"hideLimitSelector":false,"hideMenuButton":true,"hideMultiEdit":false,"hideDeclarativeActions":false,"hideNextPage":false,"hidePages":false,"hidePagination":true,"hidePanel":true,"hidePanelAdvanced":false,"hidePanelConditionDelete":false,"hidePanelFooter":false,"hidePanelRestore":false,"hidePreviousPage":false,"hideQuickEdit":true,"hideRange":false,"hideRowCount":false,"hideRowSelector":false,"hideSelectAll":true,"hideEmptyStateImage":false,"hideDBViews":false,"hideUnnecessaryRowSelectors":true,"overrideWordWrapUserPref":false,"wordWrap":false,"maxCharLimit":4000,"refreshRequested":"","recordSelectedTable":"","recordSelectedSysId":"","recordSelectedQuery":"","recordSelectedView":""}</component_props>
+        <h>4</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-22 15:31:33</sys_created_on>
+        <sys_id>c8b48fe887396550ee58fcc7dabb35eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Deficiency Reporting and Resolution" source="x_snc_deficiency_0">07a51d90877da150ee58fcc7dabb35d2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deficiency Reporting and Resolution">07a51d90877da150ee58fcc7dabb35d2</sys_scope>
+        <sys_update_name>par_dashboard_widget_c8b48fe887396550ee58fcc7dabb35eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 15:31:33</sys_updated_on>
+        <visualization/>
+        <w>3</w>
+        <x>6</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Deficiency Reporting and Resolution">07a51d90877da150ee58fcc7dabb35d2</application>
+        <file_path/>
+        <instance_id>a8a0b22edbda91944d2bac44d49619ab</instance_id>
+        <instance_name>db6tokyodemo</instance_name>
+        <name>par_dashboard_widget_c8b48fe887396550ee58fcc7dabb35eb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">63089b9cf13de150fc1d976571ec968c</canvas><component display_value="">7219cee4e0177c3cf2e48d550ce0f71b</component><component_props>{"listTitle":"ACTIVE PRJ","table":"x_snc_deficiency_0_projects","query":"active=true","columns":"project_id","groupByField":"","limit":1,"maxColumns":5,"page":1,"highlightedValueConfigId":"","hideHighlightedValues":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideRefreshButton":false,"hideLastRefreshedText":false,"hideColumnResizing":true,"hideColumnGrouping":true,"hideColumnFiltering":true,"hideColumnSorting":false,"hidePersonalization":true,"hideColumnReorder":true,"hideDotwalk":true,"hideInlineEditing":true,"hideHighlightContent":false,"highlightContent":"{ \"patterns\": [], \"color\" : \"\" }","hideLinks":false,"hideViewAll":false,"hideCellFilter":true,"hideCheckboxHover":true,"hideFilterPanel":false,"hideFirstPage":false,"hideLastPage":false,"hideLimitSelector":false,"hideMenuButton":true,"hideMultiEdit":false,"hideDeclarativeActions":false,"hideNextPage":false,"hidePages":false,"hidePagination":true,"hidePanel":true,"hidePanelAdvanced":false,"hidePanelConditionDelete":false,"hidePanelFooter":false,"hidePanelRestore":false,"hidePreviousPage":false,"hideQuickEdit":true,"hideRange":false,"hideRowCount":false,"hideRowSelector":false,"hideSelectAll":true,"hideEmptyStateImage":false,"hideDBViews":false,"hideUnnecessaryRowSelectors":true,"overrideWordWrapUserPref":false,"wordWrap":false,"maxCharLimit":4000,"refreshRequested":"","recordSelectedTable":"","recordSelectedSysId":"","recordSelectedQuery":"","recordSelectedView":""}</component_props><h>4</h><name/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-22 15:31:33</sys_created_on><sys_id>c8b48fe887396550ee58fcc7dabb35eb</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deficiency Reporting and Resolution" source="x_snc_deficiency_0">07a51d90877da150ee58fcc7dabb35d2</sys_package><sys_policy/><sys_scope display_value="Deficiency Reporting and Resolution">07a51d90877da150ee58fcc7dabb35d2</sys_scope><sys_update_name>par_dashboard_widget_c8b48fe887396550ee58fcc7dabb35eb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-22 15:31:33</sys_updated_on><visualization/><w>3</w><x>6</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>917286465</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>8fa51d90877da150ee58fcc7dabb35e3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-22 15:31:33</sys_created_on>
+        <sys_id>c0b48fe887396550ee58fcc7dabb35ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18709f267c40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 15:31:33</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>c8b48fe82a39655091ced0d84d5cc4ec</update_guid>
+        <update_guid_history>c8b48fe82a39655091ced0d84d5cc4ec:917286465</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">7315cb2c87396550ee58fcc7dabb35f2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-22 15:33:26</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>51d5caa72987406eaf8f3dcda746b3d1</sys_id>
+        <sys_metadata>c8b48fe887396550ee58fcc7dabb35eb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Deficiency Reporting and Resolution" source="x_snc_deficiency_0">07a51d90877da150ee58fcc7dabb35d2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Deficiency Reporting and Resolution">07a51d90877da150ee58fcc7dabb35d2</sys_scope>
+        <sys_scope_delete display_value="">393497ba32fa49e2a88c66ba6558c604</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_c8b48fe887396550ee58fcc7dabb35eb</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_c8b48fe887396550ee58fcc7dabb35eb">c0b48fe887396550ee58fcc7dabb35ed</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 15:33:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

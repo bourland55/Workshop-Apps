@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="e5542d9c87bda150ee58fcc7dabb358b" extends="task" label="Deficiency Record" max_length="40" name="x_snc_deficiency_0_deficiency_form" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Caused By" max_length="32" name="caused_by" reference="x_snc_deficiency_0_caused_by_choices" type="reference"/>
+        <element label="Corporate Worthy" max_length="40" name="corporate_worthy" type="boolean"/>
+        <element label="Corrective Action" max_length="40" name="corrective_action" type="html"/>
+        <element label="Corrective Action Complete" max_length="40" name="corrective_action_complete" type="boolean"/>
+        <element label="Description" max_length="40" name="descriptio0" type="html"/>
+        <element label="DFS Req'd" max_length="40" name="dfs_req_d" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="DL's Issued" max_length="40" name="dl_s_issued" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="DWG NO" max_length="40" name="dwg_no" type="string"/>
+        <element label="ILS MOD Req'd" max_length="40" name="ils_mod_req_d" type="boolean"/>
+        <element label="Inspection Req'd" max_length="40" name="inspection_req_d" type="boolean"/>
+        <element label="Isolation Satisfactory" max_length="40" name="isolation_satisfactory" type="boolean"/>
+        <element label="LAR Req'd" max_length="40" name="lar_req_d" type="boolean"/>
+        <element label="Originator Name" max_length="32" name="originator_name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Problem Log" max_length="32" name="problem_log" reference="x_snc_deficiency_0_problem_log_main" type="reference"/>
+        <element label="Records Review Complete" max_length="40" name="records_review_complete" type="boolean"/>
+        <element label="SRD/PLAN REV Req'd" max_length="40" name="srd_plan_rev_req_d" type="boolean"/>
+        <element label="Subsafe OQE Record" max_length="40" name="subsafe_oqe_record" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="S/A NO" max_length="40" name="s_a_no" type="string"/>
+        <element label="TGI" max_length="32" name="tgi" reference="x_snc_deficiency_0_task_group_instruction" type="reference"/>
+    </element>
+</database>

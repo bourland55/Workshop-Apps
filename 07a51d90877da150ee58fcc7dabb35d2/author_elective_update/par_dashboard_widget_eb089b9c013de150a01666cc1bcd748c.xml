@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">63089b9cf13de150fc1d976571ec968c</canvas>
+        <component display_value="">3a64f550256090d9578ede76158e899c</component>
+        <component_props>{"variant":"header-tertiary","label":"Happening now","wontWrap":false,"hasNoMargin":false,"level":"1","headerTitle":"Opened By DLs","showSparkline":false,"dataPassthrough":null,"bareBorder":false,"trendBy":null,"showMaximumRange":false,"applyDateRange":false,"scoreType":null,"showStackedValues":"none"}</component_props>
+        <h>4</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 22:17:42</sys_created_on>
+        <sys_id>eb089b9c013de150a01666cc1bcd748c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Deficiency Reporting and Resolution" source="x_snc_deficiency_0">07a51d90877da150ee58fcc7dabb35d2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deficiency Reporting and Resolution">07a51d90877da150ee58fcc7dabb35d2</sys_scope>
+        <sys_update_name>par_dashboard_widget_eb089b9c013de150a01666cc1bcd748c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 15:31:33</sys_updated_on>
+        <visualization/>
+        <w>4</w>
+        <x>2</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Deficiency Reporting and Resolution">07a51d90877da150ee58fcc7dabb35d2</application>
+        <file_path/>
+        <instance_id>a8a0b22edbda91944d2bac44d49619ab</instance_id>
+        <instance_name>db6tokyodemo</instance_name>
+        <name>par_dashboard_widget_eb089b9c013de150a01666cc1bcd748c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">63089b9cf13de150fc1d976571ec968c</canvas><component display_value="">3a64f550256090d9578ede76158e899c</component><component_props>{"variant":"header-tertiary","label":"Happening now","wontWrap":false,"hasNoMargin":false,"level":"1","headerTitle":"Opened By DLs","showSparkline":false,"dataPassthrough":null,"bareBorder":false,"trendBy":null,"showMaximumRange":false,"applyDateRange":false,"scoreType":null,"showStackedValues":"none"}</component_props><h>4</h><name/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-21 22:17:42</sys_created_on><sys_id>eb089b9c013de150a01666cc1bcd748c</sys_id><sys_mod_count>4</sys_mod_count><sys_name/><sys_package display_value="Deficiency Reporting and Resolution" source="x_snc_deficiency_0">07a51d90877da150ee58fcc7dabb35d2</sys_package><sys_policy/><sys_scope display_value="Deficiency Reporting and Resolution">07a51d90877da150ee58fcc7dabb35d2</sys_scope><sys_update_name>par_dashboard_widget_eb089b9c013de150a01666cc1bcd748c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-22 15:31:33</sys_updated_on><visualization/><w>4</w><x>2</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>293287522</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>8fa51d90877da150ee58fcc7dabb35e3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-22 15:31:33</sys_created_on>
+        <sys_id>40b48fe887396550ee58fcc7dabb35eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18709f267a20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 15:31:33</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>84b48fe8a939655013311e85e61fabea</update_guid>
+        <update_guid_history>84b48fe8a939655013311e85e61fabea:293287522,e1556c2c75752550ac20ce916ec477fe:1412427463,53e4a4e86e75255021d2c5411a7ee404:-989855223,d124e8a8b0752550302c7fcb3bf9e693:1982685671,592464a83f7525501d9200da6abff68b:646169575</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">36954b6c87396550ee58fcc7dabb35d4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-22 15:35:33</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>451e05c0137044c088900f3313e8a400</sys_id>
+        <sys_metadata>eb089b9c013de150a01666cc1bcd748c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Deficiency Reporting and Resolution" source="x_snc_deficiency_0">07a51d90877da150ee58fcc7dabb35d2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Deficiency Reporting and Resolution">07a51d90877da150ee58fcc7dabb35d2</sys_scope>
+        <sys_scope_delete display_value="">393497ba32fa49e2a88c66ba6558c604</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_eb089b9c013de150a01666cc1bcd748c</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_eb089b9c013de150a01666cc1bcd748c">40b48fe887396550ee58fcc7dabb35eb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-22 15:35:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

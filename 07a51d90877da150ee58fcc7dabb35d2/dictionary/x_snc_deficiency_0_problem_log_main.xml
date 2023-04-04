@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c620be6087b56550ee58fcc7dabb354a" extends="task" label="Problem Log Main" max_length="40" name="x_snc_deficiency_0_problem_log_main" text_index="true" type="collection">
+        <element label="DL" max_length="32" name="dl" reference="x_snc_deficiency_0_deficiency_log" type="reference"/>
+        <element label="DR" max_length="32" name="dr" reference="x_snc_deficiency_0_deficiency_form" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="PL Number" max_length="40" name="pl_number" type="string"/>
+        <element label="Project Number" max_length="32" name="project_number" reference="x_snc_deficiency_0_projects" type="reference"/>
+    </element>
+</database>

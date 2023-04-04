@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="56d3c6d887b1e150ee58fcc7dabb3538" label="Caused By Choices" max_length="40" name="x_snc_deficiency_0_caused_by_choices" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Caused By" max_length="40" name="caused_by" type="string"/>
+    </element>
+</database>

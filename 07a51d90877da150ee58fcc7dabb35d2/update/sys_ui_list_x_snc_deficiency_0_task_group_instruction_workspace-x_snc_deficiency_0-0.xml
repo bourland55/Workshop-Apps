@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_deficiency_0_task_group_instruction" version="2" view="Workspace-Deficiency-Reporting-and-Resolution-0">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_snc_deficiency_0_task_group_instruction" element="NULL" name="x_snc_deficiency_0_task_group_instruction" parent="NULL" relationship="NULL" sys_domain="global" view="57089b9cdd3de150ca489a72ab003389">28385bdc873de150ee58fcc7dabb359e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-21 22:18:18</sys_created_on>
+            <sys_id>a0385bdc873de150ee58fcc7dabb359f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-21 22:18:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>key_op</element>
+            <list_id display_value="x_snc_deficiency_0_task_group_instruction" element="NULL" name="x_snc_deficiency_0_task_group_instruction" parent="NULL" relationship="NULL" sys_domain="global" view="57089b9cdd3de150ca489a72ab003389">28385bdc873de150ee58fcc7dabb359e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-21 22:18:18</sys_created_on>
+            <sys_id>a4385bdc873de150ee58fcc7dabb359f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-21 22:18:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>component_name</element>
+            <list_id display_value="x_snc_deficiency_0_task_group_instruction" element="NULL" name="x_snc_deficiency_0_task_group_instruction" parent="NULL" relationship="NULL" sys_domain="global" view="57089b9cdd3de150ca489a72ab003389">28385bdc873de150ee58fcc7dabb359e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-21 22:18:18</sys_created_on>
+            <sys_id>a8385bdc873de150ee58fcc7dabb359f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-21 22:18:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>compartment</element>
+            <list_id display_value="x_snc_deficiency_0_task_group_instruction" element="NULL" name="x_snc_deficiency_0_task_group_instruction" parent="NULL" relationship="NULL" sys_domain="global" view="57089b9cdd3de150ca489a72ab003389">28385bdc873de150ee58fcc7dabb359e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-21 22:18:18</sys_created_on>
+            <sys_id>ac385bdc873de150ee58fcc7dabb359f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-21 22:18:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>icn</element>
+            <list_id display_value="x_snc_deficiency_0_task_group_instruction" element="NULL" name="x_snc_deficiency_0_task_group_instruction" parent="NULL" relationship="NULL" sys_domain="global" view="57089b9cdd3de150ca489a72ab003389">28385bdc873de150ee58fcc7dabb359e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-21 22:18:18</sys_created_on>
+            <sys_id>a0385bdc873de150ee58fcc7dabb35a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-21 22:18:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>level</element>
+            <list_id display_value="x_snc_deficiency_0_task_group_instruction" element="NULL" name="x_snc_deficiency_0_task_group_instruction" parent="NULL" relationship="NULL" sys_domain="global" view="57089b9cdd3de150ca489a72ab003389">28385bdc873de150ee58fcc7dabb359e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-21 22:18:18</sys_created_on>
+            <sys_id>a4385bdc873de150ee58fcc7dabb35a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-21 22:18:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>nuclear</element>
+            <list_id display_value="x_snc_deficiency_0_task_group_instruction" element="NULL" name="x_snc_deficiency_0_task_group_instruction" parent="NULL" relationship="NULL" sys_domain="global" view="57089b9cdd3de150ca489a72ab003389">28385bdc873de150ee58fcc7dabb359e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-21 22:18:18</sys_created_on>
+            <sys_id>a8385bdc873de150ee58fcc7dabb35a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-21 22:18:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>phase</element>
+            <list_id display_value="x_snc_deficiency_0_task_group_instruction" element="NULL" name="x_snc_deficiency_0_task_group_instruction" parent="NULL" relationship="NULL" sys_domain="global" view="57089b9cdd3de150ca489a72ab003389">28385bdc873de150ee58fcc7dabb359e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-21 22:18:18</sys_created_on>
+            <sys_id>ac385bdc873de150ee58fcc7dabb35a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-21 22:18:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>repeat</element>
+            <list_id display_value="x_snc_deficiency_0_task_group_instruction" element="NULL" name="x_snc_deficiency_0_task_group_instruction" parent="NULL" relationship="NULL" sys_domain="global" view="57089b9cdd3de150ca489a72ab003389">28385bdc873de150ee58fcc7dabb359e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-21 22:18:18</sys_created_on>
+            <sys_id>a0385bdc873de150ee58fcc7dabb35a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-21 22:18:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ship_hull_no</element>
+            <list_id display_value="x_snc_deficiency_0_task_group_instruction" element="NULL" name="x_snc_deficiency_0_task_group_instruction" parent="NULL" relationship="NULL" sys_domain="global" view="57089b9cdd3de150ca489a72ab003389">28385bdc873de150ee58fcc7dabb359e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-21 22:18:18</sys_created_on>
+            <sys_id>a4385bdc873de150ee58fcc7dabb35a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-21 22:18:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>side</element>
+            <list_id display_value="x_snc_deficiency_0_task_group_instruction" element="NULL" name="x_snc_deficiency_0_task_group_instruction" parent="NULL" relationship="NULL" sys_domain="global" view="57089b9cdd3de150ca489a72ab003389">28385bdc873de150ee58fcc7dabb359e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-21 22:18:18</sys_created_on>
+            <sys_id>a8385bdc873de150ee58fcc7dabb35a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-21 22:18:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>type</element>
+            <list_id display_value="x_snc_deficiency_0_task_group_instruction" element="NULL" name="x_snc_deficiency_0_task_group_instruction" parent="NULL" relationship="NULL" sys_domain="global" view="57089b9cdd3de150ca489a72ab003389">28385bdc873de150ee58fcc7dabb359e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-21 22:18:18</sys_created_on>
+            <sys_id>ac385bdc873de150ee58fcc7dabb35a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-21 22:18:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>project_id</element>
+            <list_id display_value="x_snc_deficiency_0_task_group_instruction" element="NULL" name="x_snc_deficiency_0_task_group_instruction" parent="NULL" relationship="NULL" sys_domain="global" view="57089b9cdd3de150ca489a72ab003389">28385bdc873de150ee58fcc7dabb359e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-21 22:18:18</sys_created_on>
+            <sys_id>a0385bdc873de150ee58fcc7dabb35a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-21 22:18:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_deficiency_0_task_group_instruction</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-21 22:18:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28385bdc873de150ee58fcc7dabb359e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_deficiency_0_task_group_instruction</sys_name>
+            <sys_package display_value="Deficiency Reporting and Resolution" source="x_snc_deficiency_0">07a51d90877da150ee58fcc7dabb35d2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Deficiency Reporting and Resolution">07a51d90877da150ee58fcc7dabb35d2</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_deficiency_0_task_group_instruction_Workspace-x_snc_deficiency_0-0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-21 22:18:18</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Deficiency Reporting and Resolution 0" name="Workspace-Deficiency-Reporting-and-Resolution-0">57089b9cdd3de150ca489a72ab003389</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

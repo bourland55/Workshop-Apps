@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="New section 1" section_id="64385bdc873de150ee58fcc7dabb3537" sys_domain="global" table="x_snc_deficiency_0_deficiency_form" version="3" view="Workspace-Deficiency-Reporting-and-Resolution-0">
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>New section 1</caption>
+            <header>false</header>
+            <name>x_snc_deficiency_0_deficiency_form</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-21 22:18:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>64385bdc873de150ee58fcc7dabb3537</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_deficiency_0_deficiency_form</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Deficiency Reporting and Resolution" source="x_snc_deficiency_0">07a51d90877da150ee58fcc7dabb35d2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Deficiency Reporting and Resolution">07a51d90877da150ee58fcc7dabb35d2</sys_scope>
+            <sys_update_name>sys_ui_section_64385bdc873de150ee58fcc7dabb3537</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-21 22:18:18</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Deficiency Reporting and Resolution 0" name="Workspace-Deficiency-Reporting-and-Resolution-0">57089b9cdd3de150ca489a72ab003389</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

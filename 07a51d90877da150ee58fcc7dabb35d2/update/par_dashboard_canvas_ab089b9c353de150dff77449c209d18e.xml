@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_canvas">
     <par_dashboard_canvas action="INSERT_OR_UPDATE">
-        <dashboard display_value="Deficiency Reporting and Resolution">6b089b9c793de150bd5fb95e1d6b4c8b</dashboard>
+        <dashboard display_value="Deficiency Tracking">6b089b9c793de150bd5fb95e1d6b4c8b</dashboard>
         <dashboard_tab/>
         <layout>[]</layout>
         <sys_class_name>par_dashboard_canvas</sys_class_name>

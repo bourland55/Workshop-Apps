@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="465eb51087b1e150ee58fcc7dabb3520" label="ICN" max_length="40" name="x_snc_deficiency_0_icn" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="ICN" max_length="40" name="icn" type="string"/>
+    </element>
+</database>

@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2023-03-22 15:02:03</sys_created_on>
-            <sys_id>3bed36ac87f56550ee58fcc7dabb3539</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>jrc_approval</sys_name>
             <sys_package display_value="Deficiency Reporting and Resolution" source="x_snc_deficiency_0">07a51d90877da150ee58fcc7dabb35d2</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2023-03-22 15:02:03</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f3ed36ac87f56550ee58fcc7dabb3539</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-03-22 15:02:03</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2023-03-22 15:02:03</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>77ed36ac87f56550ee58fcc7dabb3544</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-03-22 15:02:03</sys_updated_on>
@@ -70,7 +67,6 @@
             <sys_created_on>2023-03-22 15:02:03</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>33ed36ac87f56550ee58fcc7dabb354f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-03-22 15:02:03</sys_updated_on>
@@ -90,7 +86,6 @@
             <sys_created_on>2023-03-22 15:02:03</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c8fd36ac87f56550ee58fcc7dabb3559</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-03-22 15:02:03</sys_updated_on>

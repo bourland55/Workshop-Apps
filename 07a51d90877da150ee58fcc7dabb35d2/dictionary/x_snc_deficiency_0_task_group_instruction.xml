@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="74461114877da150ee58fcc7dabb356e" extends="task" label="Task Group Instruction" max_length="40" name="x_snc_deficiency_0_task_group_instruction" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Compartment" max_length="40" name="compartment" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Component Name" max_length="40" name="component_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Frame" max_length="40" name="frame" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="ICN" max_length="32" name="icn" reference="x_snc_deficiency_0_icn" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Key Op" max_length="32" name="key_op" reference="x_snc_deficiency_0_keyops" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Level" max_length="40" name="level" type="string"/>
+        <element label="Nuclear" max_length="40" name="nuclear" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Phase" max_length="40" name="phase" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Project ID" max_length="32" name="project_id" reference="x_snc_deficiency_0_projects" type="reference"/>
+        <element label="Repeat" max_length="40" name="repeat" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Ship/Hull No" max_length="40" name="ship_hull_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Side" max_length="40" name="side" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Port" sequence="0" value="port"/>
+                <element inactive_on_update="false" label="Starboard" sequence="1" value="starboard"/>
+                <element inactive_on_update="false" label="CL" sequence="2" value="cl"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Type" max_length="40" name="type" type="string"/>
+    </element>
+</database>

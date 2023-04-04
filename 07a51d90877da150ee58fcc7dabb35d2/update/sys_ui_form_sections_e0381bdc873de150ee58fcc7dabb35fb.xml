@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_form_sections form_id="e0381bdc873de150ee58fcc7dabb35fb" sys_domain="global" table="x_snc_deficiency_0_deficiency_form" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-21 22:18:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac381bdc873de150ee58fcc7dabb35fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_deficiency_0_deficiency_form" name="x_snc_deficiency_0_deficiency_form" sys_domain="global" view="57089b9cdd3de150ca489a72ab003389">e0381bdc873de150ee58fcc7dabb35fb</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_deficiency_0_deficiency_form" sys_domain="global" view="57089b9cdd3de150ca489a72ab003389">6c381bdc873de150ee58fcc7dabb35fd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-21 22:18:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-21 22:18:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac385bdc873de150ee58fcc7dabb3503</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_deficiency_0_deficiency_form" name="x_snc_deficiency_0_deficiency_form" sys_domain="global" view="57089b9cdd3de150ca489a72ab003389">e0381bdc873de150ee58fcc7dabb35fb</sys_ui_form>
+            <sys_ui_section caption="TGI" display_value="TGI" name="x_snc_deficiency_0_deficiency_form" sys_domain="global" view="57089b9cdd3de150ca489a72ab003389">6c385bdc873de150ee58fcc7dabb3502</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-21 22:18:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-21 22:18:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e4385bdc873de150ee58fcc7dabb3538</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_deficiency_0_deficiency_form" name="x_snc_deficiency_0_deficiency_form" sys_domain="global" view="57089b9cdd3de150ca489a72ab003389">e0381bdc873de150ee58fcc7dabb35fb</sys_ui_form>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_snc_deficiency_0_deficiency_form" sys_domain="global" view="57089b9cdd3de150ca489a72ab003389">64385bdc873de150ee58fcc7dabb3537</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-21 22:18:18</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_snc_deficiency_0_deficiency_form</name>
             <roles/>
@@ -19,7 +61,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-03-21 22:18:18</sys_updated_on>
             <sys_user/>
-            <view display_value="Workspace-x snc deficiency 0-0" name="Workspace-x_snc_deficiency_0-0">57089b9cdd3de150ca489a72ab003389</view>
+            <view display_value="Workspace Deficiency Reporting and Resolution 0" name="Workspace-Deficiency-Reporting-and-Resolution-0">57089b9cdd3de150ca489a72ab003389</view>
             <view_name/>
         </sys_ui_form>
     </sys_ui_form_sections>

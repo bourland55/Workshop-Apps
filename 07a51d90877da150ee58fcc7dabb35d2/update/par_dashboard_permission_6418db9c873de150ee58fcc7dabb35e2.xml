@@ -3,7 +3,7 @@
         <can_read>true</can_read>
         <can_share>false</can_share>
         <can_write>false</can_write>
-        <dashboard display_value="Deficiency Reporting and Resolution">6b089b9c793de150bd5fb95e1d6b4c8b</dashboard>
+        <dashboard display_value="Deficiency Tracking">6b089b9c793de150bd5fb95e1d6b4c8b</dashboard>
         <group/>
         <role display_value="x_snc_deficiency_0.admin" name="x_snc_deficiency_0.admin">13a51d90877da150ee58fcc7dabb35ed</role>
         <sys_class_name>par_dashboard_permission</sys_class_name>

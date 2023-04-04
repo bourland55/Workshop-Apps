@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_tab">
     <par_dashboard_tab action="INSERT_OR_UPDATE">
         <active>true</active>
-        <dashboard display_value="Deficiency Reporting and Resolution">6b089b9c793de150bd5fb95e1d6b4c8b</dashboard>
+        <dashboard display_value="Deficiency Tracking">6b089b9c793de150bd5fb95e1d6b4c8b</dashboard>
         <name>Tab</name>
         <order>0</order>
         <sys_class_name>par_dashboard_tab</sys_class_name>

@@ -4,7 +4,7 @@
         <app_config display_value="Deficiency Reporting and Resolution Config">e7089b9c503de1508a38f94fc179538f</app_config>
         <description/>
         <event_mappings>[ ]</event_mappings>
-        <macroponent display_value="KeyOps">77281bdc873de150ee58fcc7dabb3526</macroponent>
+        <macroponent display_value="KeyOps Record Page">77281bdc873de150ee58fcc7dabb3526</macroponent>
         <macroponent_config>{
   "views" : {
     "type" : "JSON_LITERAL",

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="427531dc8731e150ee58fcc7dabb3566" extends="x_snc_deficiency_0_deficiency_form" label="Deficiency Log" max_length="40" name="x_snc_deficiency_0_deficiency_log" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="DF Status" max_length="40" name="df_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sup Approval" sequence="0" value="Awaiting Sup Approval"/>
+                <element inactive_on_update="false" label="JRC Assignment" sequence="1" value="Awaiting JRC Assignment"/>
+                <element inactive_on_update="false" label="Engineering Eval" sequence="2" value="Engineering Eval"/>
+                <element inactive_on_update="false" label="Technical Approval" sequence="3" value="Technical Approval"/>
+                <element inactive_on_update="false" label="JRC Packaging" sequence="4" value="JRC Packaging"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="DL Number" max_length="40" name="dl_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="JRC Approval" max_length="40" name="jrc_approval" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Not Yet Requested" sequence="0" value="Not Yet Requested"/>
+                <element inactive_on_update="false" label="Requested" sequence="1" value="Requested"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="Approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="Rejected"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Project ID" max_length="32" name="project_id" reference="x_snc_deficiency_0_projects" type="reference"/>
+    </element>
+</database>

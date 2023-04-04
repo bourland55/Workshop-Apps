@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2023-03-21 13:28:43</sys_created_on>
-            <sys_id>befed15487bda150ee58fcc7dabb3551</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>side</sys_name>
             <sys_package display_value="Deficiency Reporting and Resolution" source="x_snc_deficiency_0">07a51d90877da150ee58fcc7dabb35d2</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2023-03-21 13:28:43</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>3afed15487bda150ee58fcc7dabb3551</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-03-21 13:28:43</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2023-03-21 13:28:43</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>3efed15487bda150ee58fcc7dabb355c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-03-21 13:28:43</sys_updated_on>
@@ -70,7 +67,6 @@
             <sys_created_on>2023-03-21 13:28:43</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f2fed15487bda150ee58fcc7dabb3567</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-03-21 13:28:43</sys_updated_on>

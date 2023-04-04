@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9b7b262887756550ee58fcc7dabb35d2" label="Problem Log" max_length="40" name="x_snc_deficiency_0_problem_log" type="collection">
+        <element label="DL" max_length="32" name="dl" reference="x_snc_deficiency_0_deficiency_log" type="reference"/>
+        <element label="DR" max_length="32" name="dr" reference="x_snc_deficiency_0_deficiency_form" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="PL Number" max_length="40" name="pl_number" type="string"/>
+        <element label="Project" max_length="32" name="project" reference="x_snc_deficiency_0_projects" type="reference"/>
+        <index name="index">
+            <element name="dl"/>
+        </index>
+        <index name="index2">
+            <element name="dr"/>
+        </index>
+        <index name="index3">
+            <element name="project"/>
+        </index>
+    </element>
+</database>

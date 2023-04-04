@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="661fb19087b1e150ee58fcc7dabb35e4" label="ICN KeyOp Combined" max_length="40" name="x_snc_deficiency_0_icn_keyop_combined" text_index="true" type="collection">
+        <element label="ICN" max_length="32" name="icn" reference="x_snc_deficiency_0_icn" type="reference"/>
+        <element display="true" label="KeyOp" max_length="32" name="keyop" reference="x_snc_deficiency_0_keyops" type="reference"/>
+        <index name="index">
+            <element name="icn"/>
+        </index>
+        <index name="index2">
+            <element name="keyop"/>
+        </index>
+    </element>
+</database>
