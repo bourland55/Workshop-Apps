@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="ffcb44c88721e550ee58fcc7dabb35cc" extends="task" label="Recommendation" max_length="40" name="x_snc_army_learn_0_recommendation" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="200" name="comment0" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Concur or Non-Concur" max_length="40" name="concur_or_non_concur" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Concur" sequence="0" value="Concur"/>
+                <element inactive_on_update="false" label="Non-Concur" sequence="1" value="Non-Concur"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Discussion" max_length="500" name="discussion" type="string"/>
+        <element label="Event" max_length="32" name="event" reference="x_snc_army_learn_0_army_event" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Explanation for Retrain" max_length="500" name="explanation_for_retrain" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Recommendation" max_length="500" name="recommendation" type="string"/>
+        <element label="Retrain" max_length="255" name="retrain" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sustain or Improve" max_length="40" name="sustain_or_improve" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sustain" sequence="0" value="sustain"/>
+                <element inactive_on_update="false" label="Improve" sequence="1" value="improve"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="War Fighting Functions" mandatory="true" max_length="40" name="war_fighting_functions" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Command and Control" sequence="0" value="command_and_control"/>
+                <element inactive_on_update="false" label="Movement and Maneuver" sequence="1" value="movement_and_maneuver"/>
+                <element inactive_on_update="false" label="Intel" sequence="2" value="intel"/>
+                <element inactive_on_update="false" label="Fires" sequence="3" value="fires"/>
+                <element inactive_on_update="false" label="Sustainment" sequence="4" value="sustainment"/>
+                <element inactive_on_update="false" label="Protection" sequence="5" value="protection"/>
+            </choice>
+        </element>
+    </element>
+</database>

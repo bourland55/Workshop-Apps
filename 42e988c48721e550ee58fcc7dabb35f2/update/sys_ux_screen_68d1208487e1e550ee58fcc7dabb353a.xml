@@ -4,7 +4,7 @@
         <app_config display_value="Army Learning Library Config">d7b12844a1e1e5505f5f7c03199607da</app_config>
         <description/>
         <event_mappings>[ ]</event_mappings>
-        <macroponent display_value="Army Event">e0d1208487e1e550ee58fcc7dabb3534</macroponent>
+        <macroponent display_value="Army Event Record Page">e0d1208487e1e550ee58fcc7dabb3534</macroponent>
         <macroponent_config>{
   "views" : {
     "type" : "JSON_LITERAL",
