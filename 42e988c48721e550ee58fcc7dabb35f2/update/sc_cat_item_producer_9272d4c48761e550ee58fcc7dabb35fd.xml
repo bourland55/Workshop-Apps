@@ -47,7 +47,7 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="David Bourland">6816f79cc0a8016401c5a33be04be441</owner>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
         <picture>a00398c48761e550ee58fcc7dabb3563</picture>
         <post_insert_script><![CDATA[/**
 * This script is executed after the record is generated. 
@@ -61,7 +61,7 @@
         <recurring_frequency/>
         <redirect_url>generated_record</redirect_url>
         <request_method/>
-        <roles/>
+        <roles>snc_internal</roles>
         <save_options/>
         <save_script><![CDATA[/**
 * This script is executed at every step save in Catalog Builder. 
@@ -89,15 +89,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-08 03:00:16</sys_created_on>
         <sys_id>9272d4c48761e550ee58fcc7dabb35fd</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Event Registration</sys_name>
         <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
         <sys_update_name>sc_cat_item_producer_9272d4c48761e550ee58fcc7dabb35fd</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-08 03:49:23</sys_updated_on>
-        <table_name>x_snc_army_learn_0_army_event</table_name>
+        <sys_updated_by>lily.liang</sys_updated_by>
+        <sys_updated_on>2023-07-25 19:22:09</sys_updated_on>
+        <table_name>x_snc_army_learn_0_event</table_name>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>

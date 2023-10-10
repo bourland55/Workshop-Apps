@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_snc_army_learn_0_recommendation" version="2" view="Workspace-Army-Learning-Library-0">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Recommendation - Workspace Army Learning Library 0" name="x_snc_army_learn_0_recommendation" related_list="NULL" sys_domain="global" view="97b12844f0e1e550ed3d97e9c5bd92d4">ddb739629359f9d0214cb45e1dba10e7</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_snc_army_learn_0_recommendation_tasks.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-18 14:42:50</sys_created_on>
+            <sys_id>1db739629359f9d0214cb45e1dba10e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-18 14:42:50</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Recommendation - Workspace Army Learning Library 0" name="x_snc_army_learn_0_recommendation" related_list="NULL" sys_domain="global" view="97b12844f0e1e550ed3d97e9c5bd92d4">ddb739629359f9d0214cb45e1dba10e7</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>sysapproval_approver.sysapproval</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-18 14:42:50</sys_created_on>
+            <sys_id>11b739629359f9d0214cb45e1dba10e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-18 14:42:50</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Recommendation - Workspace Army Learning Library 0</calculated_name>
+            <filter/>
+            <name>x_snc_army_learn_0_recommendation</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-18 14:42:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ddb739629359f9d0214cb45e1dba10e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Recommendation - Workspace Army Learning Library 0</sys_name>
+            <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+            <sys_update_name>sys_ui_related_x_snc_army_learn_0_recommendation_Workspace-Army-Learning-Library-0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-18 14:42:50</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Army Learning Library 0" name="Workspace-Army-Learning-Library-0">97b12844f0e1e550ed3d97e9c5bd92d4</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

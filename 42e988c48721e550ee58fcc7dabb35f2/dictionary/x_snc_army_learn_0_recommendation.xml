@@ -8,7 +8,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Discussion" max_length="500" name="discussion" type="string"/>
-        <element label="Event" max_length="32" name="event" reference="x_snc_army_learn_0_army_event" type="reference"/>
+        <element label="Event" max_length="32" name="event" reference="x_snc_army_learn_0_event" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Explanation for Retrain" max_length="500" name="explanation_for_retrain" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Recommendation" max_length="500" name="recommendation" type="string"/>
         <element label="Retrain" max_length="255" name="retrain" type="boolean"/>

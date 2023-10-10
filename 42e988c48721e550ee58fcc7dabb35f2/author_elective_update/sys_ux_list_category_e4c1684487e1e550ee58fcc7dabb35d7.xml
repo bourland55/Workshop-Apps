@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="DELETE">
+        <active>true</active>
+        <configuration display_value="Army Learning Library_menu_config">e0c1684487e1e550ee58fcc7dabb35d5</configuration>
+        <description/>
+        <order>100</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 04:07:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e4c1684487e1e550ee58fcc7dabb35d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Army Event</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name>sys_ux_list_category_e4c1684487e1e550ee58fcc7dabb35d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 04:07:03</sys_updated_on>
+        <title>Army Event</title>
+    </sys_ux_list_category>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</application>
+        <file_path/>
+        <instance_id>5b1b945edbf1ed9442b321c4059619f5</instance_id>
+        <instance_name>db8utahdemo</instance_name>
+        <name>sys_ux_list_category_e4c1684487e1e550ee58fcc7dabb35d7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <configuration display_value="Army Learning Library_menu_config">e0c1684487e1e550ee58fcc7dabb35d5</configuration>
+        <description/>
+        <order>100</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-08 04:07:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e4c1684487e1e550ee58fcc7dabb35d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Army Event</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name>sys_ux_list_category_e4c1684487e1e550ee58fcc7dabb35d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-08 04:07:03</sys_updated_on>
+        <title>Army Event</title>
+    </sys_ux_list_category>
+</record_update>]]></payload>
+        <payload_hash>1117927841</payload_hash>
+        <record_name>Army Event</record_name>
+        <reverted_from/>
+        <source>d57dfefc4786e910f61f4a05126d4377</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-04 19:54:39</sys_created_on>
+        <sys_id>309d7e3047c6e910f61f4a05126d43b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1874dd5f2850000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-04 19:54:39</sys_updated_on>
+        <type>UX List Category</type>
+        <update_guid>fc9d7e309dc6e910d7845b583828f6b0</update_guid>
+        <update_guid_history>fc9d7e309dc6e910d7845b583828f6b0:1117927841</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lily.liang</sys_created_by>
+        <sys_created_on>2023-07-26 16:35:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_list_category">sys_ux_list_category</sys_db_object>
+        <sys_id>371c954358e74a8092c8175f7f18d100</sys_id>
+        <sys_metadata>e4c1684487e1e550ee58fcc7dabb35d7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Army Event</sys_name>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_scope_delete display_value="">67990ff0666949ac9fef0df43a58d010</sys_scope_delete>
+        <sys_update_name>sys_ux_list_category_e4c1684487e1e550ee58fcc7dabb35d7</sys_update_name>
+        <sys_update_version display_value="sys_ux_list_category_e4c1684487e1e550ee58fcc7dabb35d7">309d7e3047c6e910f61f4a05126d43b1</sys_update_version>
+        <sys_updated_by>lily.liang</sys_updated_by>
+        <sys_updated_on>2023-07-26 16:35:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="410824048725e550ee58fcc7dabb3509" extends="task" label="Recommendation Tasks" max_length="40" name="x_snc_army_learn_0_recommendation_tasks" text_index="true" type="collection">
+    <element db_object_id="410824048725e550ee58fcc7dabb3509" extends="task" label="RTKs" max_length="40" name="x_snc_army_learn_0_recommendation_tasks" text_index="true" type="collection">
         <element label="Recommendation" max_length="32" name="recommendation" reference="x_snc_army_learn_0_recommendation" type="reference"/>
     </element>
 </database>

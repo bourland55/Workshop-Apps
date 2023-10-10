@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="c4f9a60887e12950ee58fcc7dabb355f" extends="task" label="Learning Assessments" max_length="40" name="x_snc_army_learn_0_learning_assessments" text_index="true" type="collection">
-        <element label="Event" max_length="32" name="event" reference="x_snc_army_learn_0_army_event" type="reference"/>
+        <element label="Event" max_length="32" name="event" reference="x_snc_army_learn_0_event" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="1000" name="justification" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Action Recommendation" max_length="40" name="recommendatio0" type="string">
             <choice>

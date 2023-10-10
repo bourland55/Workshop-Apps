@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
     <sys_ux_list action="INSERT_OR_UPDATE">
         <active>true</active>
-        <category display_value="Army Event">e4c1684487e1e550ee58fcc7dabb35d7</category>
-        <columns>title,type,owner,start_date</columns>
+        <category display_value="Events">3e6bc89d47dc3550412ec035126d43ec</category>
+        <columns>short_description,assigned_to,state,sys_updated_on</columns>
         <condition/>
         <configuration display_value="Army Learning Library_menu_config">e0c1684487e1e550ee58fcc7dabb35d5</configuration>
         <group_by_column/>
@@ -51,25 +51,25 @@
         <highlight_content_pattern/>
         <list_attributes/>
         <max_characters>4000</max_characters>
-        <order>50</order>
+        <order>100</order>
         <override_word_wrap_user_pref>false</override_word_wrap_user_pref>
         <roles/>
         <sys_class_name>sys_ux_list</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-08 04:07:03</sys_created_on>
+        <sys_created_by>lily.liang</sys_created_by>
+        <sys_created_on>2023-07-26 16:34:52</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>64c1684487e1e550ee58fcc7dabb35da</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_id>408b00dd47dc3550412ec035126d433a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>All</sys_name>
         <sys_overrides/>
         <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
-        <sys_update_name>sys_ux_list_64c1684487e1e550ee58fcc7dabb35da</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-08 04:07:03</sys_updated_on>
-        <table>x_snc_army_learn_0_army_event</table>
+        <sys_update_name>sys_ux_list_408b00dd47dc3550412ec035126d433a</sys_update_name>
+        <sys_updated_by>lily.liang</sys_updated_by>
+        <sys_updated_on>2023-07-26 19:21:12</sys_updated_on>
+        <table>x_snc_army_learn_0_event</table>
         <title>All</title>
         <view/>
         <word_wrap>false</word_wrap>
