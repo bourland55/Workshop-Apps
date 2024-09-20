@@ -41,7 +41,7 @@
         <update_guid_history>cf7d144c9ba1e550cbc7ca1a228cf4d0:-1507719613</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Army .After Action Report">3f8d944c87a1e550ee58fcc7dabb357e</sys_audit_delete>
+        <sys_audit_delete display_value="">3f8d944c87a1e550ee58fcc7dabb357e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-08 03:48:42</sys_created_on>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
     <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
-        <dependency display_value="System Import Sets" source="com.glide.system_import_set">aa5332e2871211107eabca25dabb35d6</dependency>
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">c40523f33b020210514f069aa4e45afe</dependency>
         <min_version>1.0.0</min_version>
         <sys_created_by>david.bourland</sys_created_by>
         <sys_created_on>2024-09-20 17:01:28</sys_created_on>
-        <sys_id>8080e5cd87b8d2107eabca25dabb35ff</sys_id>
+        <sys_id>3944e909333052102ed9b3373e5c7bc7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
         <sys_updated_by>david.bourland</sys_updated_by>

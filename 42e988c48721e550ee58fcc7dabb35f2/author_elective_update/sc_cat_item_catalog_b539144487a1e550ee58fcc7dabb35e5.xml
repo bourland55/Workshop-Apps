@@ -41,7 +41,7 @@
         <update_guid_history>35391444d8a1e550cd844dcc753a68e8:1662497977</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Service Catalog.AAR">c57dd04c87a1e550ee58fcc7dabb3562</sys_audit_delete>
+        <sys_audit_delete display_value="">c57dd04c87a1e550ee58fcc7dabb3562</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-08 03:48:14</sys_created_on>

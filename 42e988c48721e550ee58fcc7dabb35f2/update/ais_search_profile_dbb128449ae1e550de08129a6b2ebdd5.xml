@@ -6,9 +6,9 @@
         <genius_result_assembly/>
         <label>Army Learning Library search profile</label>
         <name>x_snc_army_learn_0_ujbhzii_search_profile</name>
-        <publish_id>4b4c2134-9876-4894-b059-58d398587ca4</publish_id>
+        <publish_id>1a8e58fa-df6c-441c-ae42-dce89f4cc61e</publish_id>
         <qna_model_id>bert-qa-model-1.1.6</qna_model_id>
-        <state>DRAFT</state>
+        <state>PUBLISHED</state>
         <sys_class_name>ais_search_profile</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-08 04:06:58</sys_created_on>

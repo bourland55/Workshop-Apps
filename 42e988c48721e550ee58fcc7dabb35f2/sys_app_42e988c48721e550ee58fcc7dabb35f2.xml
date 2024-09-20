@@ -49,7 +49,6 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
-        <encryption_context/>
         <file_name>PXL_20230307_141033705.jpg</file_name>
         <hash>81242658f89c62209e4896e237fafa65456f19b3d32008ce0974fb19946ece65</hash>
         <image_height/>

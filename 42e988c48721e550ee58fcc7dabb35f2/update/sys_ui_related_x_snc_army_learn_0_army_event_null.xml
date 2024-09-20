@@ -2,7 +2,7 @@
     <sys_ui_related sys_domain="global" table="x_snc_army_learn_0_army_event" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Army Event - Default view" name="x_snc_army_learn_0_army_event" related_list="NULL" sys_domain="global" view="Default view">f0fe5c4c87a1e550ee58fcc7dabb35c8</list_id>
+            <list_id display_value="Army Event DO NOT USE - Default view" name="x_snc_army_learn_0_army_event" related_list="NULL" sys_domain="global" view="Default view">f0fe5c4c87a1e550ee58fcc7dabb35c8</list_id>
             <order_by/>
             <position>0</position>
             <related_list>x_snc_army_learn_0_recommendation.event</related_list>
@@ -15,7 +15,7 @@
             <sys_updated_on>2023-03-08 03:54:46</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
-            <calculated_name>Army Event - Default view</calculated_name>
+            <calculated_name>Army Event DO NOT USE - Default view</calculated_name>
             <filter/>
             <name>x_snc_army_learn_0_army_event</name>
             <order_by/>

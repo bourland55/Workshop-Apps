@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
     <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
-        <dependency display_value="Task table schema" source="com.glide.task">90f336e6871211107eabca25dabb35c7</dependency>
+        <dependency display_value="Task table schema" source="com.glide.task">edd5af3b3b020210514f069aa4e45a21</dependency>
         <min_version>1.0.0</min_version>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-08 02:31:09</sys_created_on>
-        <sys_id>b3cb44c88721e550ee58fcc7dabb35f1</sys_id>
+        <sys_id>5a446d09333052102ed9b3373e5c7b26</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
         <sys_updated_by>admin</sys_updated_by>

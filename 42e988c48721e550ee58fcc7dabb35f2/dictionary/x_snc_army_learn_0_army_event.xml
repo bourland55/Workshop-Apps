@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="8d3a04088721e550ee58fcc7dabb3566" label="Army Event" max_length="40" name="x_snc_army_learn_0_army_event" text_index="true" type="collection">
+    <element db_object_id="8d3a04088721e550ee58fcc7dabb3566" label="Army Event DO NOT USE" max_length="40" name="x_snc_army_learn_0_army_event" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Start Date" max_length="40" name="start_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="string">
             <choice>
-                <element inactive_on_update="false" label="Live Fire" sequence="0" value="live_fire"/>
-                <element inactive_on_update="false" label="Exercise" sequence="2" value="exercise"/>
                 <element inactive_on_update="false" label="Training" sequence="1" value="training"/>
+                <element inactive_on_update="false" label="Exercise" sequence="2" value="exercise"/>
+                <element inactive_on_update="false" label="Live Fire" sequence="0" value="live_fire"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" display="true" label="Title" max_length="40" name="title" type="string"/>
         <element label="Owner" max_length="32" name="owner" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Start Date" max_length="40" name="start_date" type="glide_date"/>
         <index name="index">
             <element name="owner"/>
         </index>

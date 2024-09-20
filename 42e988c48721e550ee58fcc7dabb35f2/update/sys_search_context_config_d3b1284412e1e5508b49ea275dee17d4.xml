@@ -15,7 +15,6 @@
         <search_results_limit>10</search_results_limit>
         <semantic_groupby>none</semantic_groupby>
         <semantic_search_mode>keyword</semantic_search_mode>
-        <semantic_type>standard</semantic_type>
         <show_tab_counts>true</show_tab_counts>
         <spell_check>true</spell_check>
         <suggestions_to_show_limit>10</suggestions_to_show_limit>

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="c4f9a60887e12950ee58fcc7dabb355f" extends="task" label="Learning Assessments" max_length="40" name="x_snc_army_learn_0_learning_assessments" text_index="true" type="collection">
-        <element label="Event" max_length="32" name="event" reference="x_snc_army_learn_0_event" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Justification" max_length="1000" name="justification" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Action Recommendation" max_length="40" name="recommendatio0" type="string">
             <choice>
-                <element inactive_on_update="false" label="Unit Level Solution" sequence="0" value="Unit Level Solution"/>
                 <element inactive_on_update="false" label="LAT Corrective Action" sequence="1" value="HQ Corrective Action"/>
-                <element inactive_on_update="false" label="Dissemination" sequence="2" value="Dissemination"/>
+                <element inactive_on_update="false" label="Unit Level Solution" sequence="0" value="Unit Level Solution"/>
                 <element inactive_on_update="false" label="HHQ Solution" sequence="3" value="HHQ Solution"/>
+                <element inactive_on_update="false" label="Dissemination" sequence="2" value="Dissemination"/>
             </choice>
         </element>
-        <element label="Recommendation" max_length="32" name="recommendation" reference="x_snc_army_learn_0_recommendation" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Stage" max_length="40" name="stage" type="string">
             <choice>
-                <element inactive_on_update="false" label="Initial Submission" sequence="0" value="Initial Submission"/>
-                <element inactive_on_update="false" label="LAT Initial Assessment" sequence="1" value="Lat Initial Assessment"/>
-                <element inactive_on_update="false" label="Recommendation" sequence="2" value="Recommendation"/>
-                <element inactive_on_update="false" label="Action Plan Development" sequence="3" value="Action Plan Development"/>
-                <element inactive_on_update="false" label="Pilot" sequence="4" value="Pilot"/>
-                <element inactive_on_update="false" label="Implementation" sequence="5" value="Implementation"/>
-                <element inactive_on_update="false" label="Final Assessment" sequence="6" value="Final Assessment"/>
-                <element inactive_on_update="false" label="Publication" sequence="7" value="Publication"/>
                 <element inactive_on_update="false" label="Closed" sequence="8" value="Closed"/>
+                <element inactive_on_update="false" label="Recommendation" sequence="2" value="Recommendation"/>
+                <element inactive_on_update="false" label="LAT Initial Assessment" sequence="1" value="Lat Initial Assessment"/>
+                <element inactive_on_update="false" label="Publication" sequence="7" value="Publication"/>
+                <element inactive_on_update="false" label="Implementation" sequence="5" value="Implementation"/>
+                <element inactive_on_update="false" label="Pilot" sequence="4" value="Pilot"/>
+                <element inactive_on_update="false" label="Initial Submission" sequence="0" value="Initial Submission"/>
+                <element inactive_on_update="false" label="Final Assessment" sequence="6" value="Final Assessment"/>
+                <element inactive_on_update="false" label="Action Plan Development" sequence="3" value="Action Plan Development"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Justification" max_length="1000" name="justification" type="string"/>
+        <element label="Event" max_length="32" name="event" reference="x_snc_army_learn_0_event" type="reference"/>
+        <element label="Recommendation" max_length="32" name="recommendation" reference="x_snc_army_learn_0_recommendation" type="reference"/>
     </element>
 </database>

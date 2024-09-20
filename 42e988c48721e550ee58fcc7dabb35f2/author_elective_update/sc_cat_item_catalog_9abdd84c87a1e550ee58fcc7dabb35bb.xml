@@ -41,7 +41,7 @@
         <update_guid_history>1ebdd84cfea1e5509da557b146410ebd:745972771</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Army .Event Registration">2bbd1c4c87a1e550ee58fcc7dabb3576</sys_audit_delete>
+        <sys_audit_delete display_value="">2bbd1c4c87a1e550ee58fcc7dabb3576</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-08 03:49:30</sys_created_on>

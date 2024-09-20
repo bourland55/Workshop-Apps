@@ -41,7 +41,7 @@
         <update_guid_history>e7f358886d61e550bdb3c7ed712e5265:5233747</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Can We Help You?.Event Registration">5abdd84c87a1e550ee58fcc7dabb35cf</sys_audit_delete>
+        <sys_audit_delete display_value="">5abdd84c87a1e550ee58fcc7dabb35cf</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-08 03:49:24</sys_created_on>
