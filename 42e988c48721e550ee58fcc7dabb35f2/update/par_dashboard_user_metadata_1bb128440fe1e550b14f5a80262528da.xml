@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_user_metadata">
     <par_dashboard_user_metadata action="INSERT_OR_UPDATE">
         <background_color/>
-        <cache_expiration_time/>
+        <cache_expiration_time>0</cache_expiration_time>
         <card_bg_image/>
-        <created_by_user display_value="David Bourland">6816f79cc0a8016401c5a33be04be441</created_by_user>
+        <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
         <created_on>2022-05-29 16:29:20</created_on>
         <dashboard display_value="Army Learning Library">9bb1284476e1e550a76c791f648602d6</dashboard>
         <enable_data_cache>false</enable_data_cache>
@@ -12,13 +12,12 @@
         <include_kpi_signals>true</include_kpi_signals>
         <include_predictive_target>true</include_predictive_target>
         <include_predictive_thresholds>true</include_predictive_thresholds>
-        <include_process_mining>true</include_process_mining>
+        <include_process_mining>false</include_process_mining>
         <include_severity>true</include_severity>
         <include_target>true</include_target>
         <include_thresholds>true</include_thresholds>
         <include_trends>true</include_trends>
-        <include_widget_notification>true</include_widget_notification>
-        <last_updated_on>2023-07-26 20:43:45</last_updated_on>
+        <last_updated_on>2024-09-20 22:16:02</last_updated_on>
         <po_project_id_list/>
         <refresh_information>false</refresh_information>
         <refresh_interval/>
@@ -29,17 +28,18 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-08 04:06:59</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>1bb128440fe1e550b14f5a80262528da</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
         <sys_update_name>par_dashboard_user_metadata_1bb128440fe1e550b14f5a80262528da</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-26 20:43:45</sys_updated_on>
-        <updated_by_user display_value="David Bourland">6816f79cc0a8016401c5a33be04be441</updated_by_user>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-09-20 22:16:02</sys_updated_on>
+        <updated_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</updated_by_user>
         <use_custom_tab_colors>false</use_custom_tab_colors>
     </par_dashboard_user_metadata>
 </record_update>

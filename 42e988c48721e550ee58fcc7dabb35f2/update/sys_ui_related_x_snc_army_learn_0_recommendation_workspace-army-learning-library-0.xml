@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_related sys_domain="global" table="x_snc_army_learn_0_event" version="2" view="">
+    <sys_ui_related sys_domain="global" table="x_snc_army_learn_0_recommendation" version="2" view="Workspace-Army-Learning-Library-0">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Event - Default view" name="x_snc_army_learn_0_event" related_list="NULL" sys_domain="global" view="Default view">49d6a685333852102ed9b3373e5c7b39</list_id>
+            <list_id display_value="Recommendation - Workspace Army Learning Library 0" name="x_snc_army_learn_0_recommendation" related_list="NULL" sys_domain="global" view="97b12844f0e1e550ed3d97e9c5bd92d4">6c07ea85333852102ed9b3373e5c7bef</list_id>
             <order_by/>
             <position>0</position>
             <related_list>sysapproval_approver.sysapproval</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>david.bourland</sys_created_by>
-            <sys_created_on>2024-09-20 22:08:45</sys_created_on>
-            <sys_id>4dd6a685333852102ed9b3373e5c7b3a</sys_id>
+            <sys_created_on>2024-09-20 22:09:31</sys_created_on>
+            <sys_id>e807ea85333852102ed9b3373e5c7bf0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>david.bourland</sys_updated_by>
-            <sys_updated_on>2024-09-20 22:08:45</sys_updated_on>
+            <sys_updated_on>2024-09-20 22:09:31</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Event - Default view" name="x_snc_army_learn_0_event" related_list="NULL" sys_domain="global" view="Default view">49d6a685333852102ed9b3373e5c7b39</list_id>
+            <list_id display_value="Recommendation - Workspace Army Learning Library 0" name="x_snc_army_learn_0_recommendation" related_list="NULL" sys_domain="global" view="97b12844f0e1e550ed3d97e9c5bd92d4">6c07ea85333852102ed9b3373e5c7bef</list_id>
             <order_by/>
             <position>1</position>
-            <related_list>x_snc_army_learn_0_recommendation.event</related_list>
+            <related_list>task.parent</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>david.bourland</sys_created_by>
-            <sys_created_on>2024-09-20 22:08:45</sys_created_on>
-            <sys_id>45d6a685333852102ed9b3373e5c7b3b</sys_id>
+            <sys_created_on>2024-09-20 22:09:31</sys_created_on>
+            <sys_id>ec07ea85333852102ed9b3373e5c7bf0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>david.bourland</sys_updated_by>
-            <sys_updated_on>2024-09-20 22:08:45</sys_updated_on>
+            <sys_updated_on>2024-09-20 22:09:31</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
-            <calculated_name>Event - Default view</calculated_name>
+            <calculated_name>Recommendation - Workspace Army Learning Library 0</calculated_name>
             <filter/>
-            <name>x_snc_army_learn_0_event</name>
+            <name>x_snc_army_learn_0_recommendation</name>
             <order_by/>
             <position/>
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>david.bourland</sys_created_by>
-            <sys_created_on>2024-09-20 22:08:45</sys_created_on>
+            <sys_created_on>2024-09-20 22:09:31</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>49d6a685333852102ed9b3373e5c7b39</sys_id>
+            <sys_id>6c07ea85333852102ed9b3373e5c7bef</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Event - Default view</sys_name>
+            <sys_name>Recommendation - Workspace Army Learning Library 0</sys_name>
             <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
             <sys_policy/>
             <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
-            <sys_update_name>sys_ui_related_x_snc_army_learn_0_event_null</sys_update_name>
+            <sys_update_name>sys_ui_related_x_snc_army_learn_0_recommendation_Workspace-Army-Learning-Library-0</sys_update_name>
             <sys_updated_by>david.bourland</sys_updated_by>
-            <sys_updated_on>2024-09-20 22:08:45</sys_updated_on>
+            <sys_updated_on>2024-09-20 22:09:31</sys_updated_on>
             <sys_user/>
-            <view display_value="Default view" name="NULL">Default view</view>
+            <view display_value="Workspace Army Learning Library 0" name="Workspace-Army-Learning-Library-0">97b12844f0e1e550ed3d97e9c5bd92d4</view>
             <view_name/>
         </sys_ui_related_list>
     </sys_ui_related>
