@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input_attribute">
+    <sys_sg_input_attribute action="DELETE">
+        <input display_value="Event">88e71a0933b452102ed9b3373e5c7b71</input>
+        <name>SourceFieldName</name>
+        <sys_class_name>sys_sg_input_attribute</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-09-20 21:03:24</sys_created_on>
+        <sys_id>00e71a0933b452102ed9b3373e5c7b79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SourceFieldName</sys_name>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name>sys_sg_input_attribute_00e71a0933b452102ed9b3373e5c7b79</sys_update_name>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-09-20 21:03:24</sys_updated_on>
+        <value>event</value>
+    </sys_sg_input_attribute>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</application>
+        <file_path/>
+        <instance_id>9fdf9b731b8e8e5419254089bd4bcb17</instance_id>
+        <instance_name>dbtestwashington</instance_name>
+        <name>sys_sg_input_attribute_00e71a0933b452102ed9b3373e5c7b79</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input_attribute"><sys_sg_input_attribute action="INSERT_OR_UPDATE"><input display_value="Event">88e71a0933b452102ed9b3373e5c7b71</input><name>SourceFieldName</name><sys_class_name>sys_sg_input_attribute</sys_class_name><sys_created_by>david.bourland</sys_created_by><sys_created_on>2024-09-20 21:03:24</sys_created_on><sys_id>00e71a0933b452102ed9b3373e5c7b79</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SourceFieldName</sys_name><sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package><sys_policy/><sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope><sys_update_name>sys_sg_input_attribute_00e71a0933b452102ed9b3373e5c7b79</sys_update_name><sys_updated_by>david.bourland</sys_updated_by><sys_updated_on>2024-09-20 21:03:24</sys_updated_on><value>event</value></sys_sg_input_attribute></record_update>]]></payload>
+        <payload_hash>1207158065</payload_hash>
+        <record_name>SourceFieldName</record_name>
+        <reverted_from/>
+        <source>1a842185333052102ed9b3373e5c7b04</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-09-20 21:03:24</sys_created_on>
+        <sys_id>44e75a4933b452102ed9b3373e5c7b7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192113f285f0000001</sys_recorded_at>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-09-20 21:03:24</sys_updated_on>
+        <type>Input Attribute</type>
+        <update_guid>08e75a4986b45210c66080f4797f167b</update_guid>
+        <update_guid_history>08e75a4986b45210c66080f4797f167b:1207158065</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-09-20 21:24:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_input_attribute">sys_sg_input_attribute</sys_db_object>
+        <sys_id>015a8c272b224b6780079b693434a2f1</sys_id>
+        <sys_metadata>00e71a0933b452102ed9b3373e5c7b79</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SourceFieldName</sys_name>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_scope_delete display_value="">67990ff0666949ac9fef0df43a58d010</sys_scope_delete>
+        <sys_update_name>sys_sg_input_attribute_00e71a0933b452102ed9b3373e5c7b79</sys_update_name>
+        <sys_update_version display_value="sys_sg_input_attribute_00e71a0933b452102ed9b3373e5c7b79">44e75a4933b452102ed9b3373e5c7b7c</sys_update_version>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-09-20 21:24:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input">
+    <sys_sg_input action="DELETE">
+        <active>true</active>
+        <autofill_variable/>
+        <category/>
+        <description/>
+        <label>Event</label>
+        <mandatory>false</mandatory>
+        <name>Event</name>
+        <order>10</order>
+        <page display_value="Event">cae58689333452102ed9b3373e5c7ba1</page>
+        <parameter_screen display_value="AAR TEST Input Screen">68c58689333452102ed9b3373e5c7b22</parameter_screen>
+        <parameter_section/>
+        <placeholder/>
+        <readonly>false</readonly>
+        <sys_class_name>sys_sg_input</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-09-20 19:50:07</sys_created_on>
+        <sys_id>5a17c60d333452102ed9b3373e5c7bec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event</sys_name>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name>sys_sg_input_5a17c60d333452102ed9b3373e5c7bec</sys_update_name>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-09-20 19:50:07</sys_updated_on>
+        <type display_value="Reference">770c605517021010f2b43b9fadb95900</type>
+    </sys_sg_input>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</application>
+        <file_path/>
+        <instance_id>9fdf9b731b8e8e5419254089bd4bcb17</instance_id>
+        <instance_name>dbtestwashington</instance_name>
+        <name>sys_sg_input_5a17c60d333452102ed9b3373e5c7bec</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input"><sys_sg_input action="INSERT_OR_UPDATE"><active>true</active><autofill_variable/><category/><description/><label>Event</label><mandatory>false</mandatory><name>Event</name><order>10</order><page display_value="Event">cae58689333452102ed9b3373e5c7ba1</page><parameter_screen display_value="AAR TEST Input Screen">68c58689333452102ed9b3373e5c7b22</parameter_screen><parameter_section/><placeholder/><readonly>false</readonly><sys_class_name>sys_sg_input</sys_class_name><sys_created_by>david.bourland</sys_created_by><sys_created_on>2024-09-20 19:50:07</sys_created_on><sys_id>5a17c60d333452102ed9b3373e5c7bec</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Event</sys_name><sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package><sys_policy/><sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope><sys_update_name>sys_sg_input_5a17c60d333452102ed9b3373e5c7bec</sys_update_name><sys_updated_by>david.bourland</sys_updated_by><sys_updated_on>2024-09-20 19:50:07</sys_updated_on><type display_value="Reference">770c605517021010f2b43b9fadb95900</type></sys_sg_input></record_update>]]></payload>
+        <payload_hash>-862295439</payload_hash>
+        <record_name>Event</record_name>
+        <reverted_from/>
+        <source>1a842185333052102ed9b3373e5c7b04</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-09-20 19:50:07</sys_created_on>
+        <sys_id>9e17c60d333452102ed9b3373e5c7bf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19210fc0e570000001</sys_recorded_at>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-09-20 19:50:07</sys_updated_on>
+        <type>Input</type>
+        <update_guid>1217c60de7345210c5f7befdd33648f0</update_guid>
+        <update_guid_history>1217c60de7345210c5f7befdd33648f0:-862295439</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-09-20 21:04:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_input">sys_sg_input</sys_db_object>
+        <sys_id>1c3bac9bcaa54be8856e180c259db0c4</sys_id>
+        <sys_metadata>5a17c60d333452102ed9b3373e5c7bec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event</sys_name>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_scope_delete display_value="">67990ff0666949ac9fef0df43a58d010</sys_scope_delete>
+        <sys_update_name>sys_sg_input_5a17c60d333452102ed9b3373e5c7bec</sys_update_name>
+        <sys_update_version display_value="sys_sg_input_5a17c60d333452102ed9b3373e5c7bec">9e17c60d333452102ed9b3373e5c7bf0</sys_update_version>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-09-20 21:04:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

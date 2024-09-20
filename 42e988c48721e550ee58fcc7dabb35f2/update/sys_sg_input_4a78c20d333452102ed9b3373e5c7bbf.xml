@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input">
+    <sys_sg_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <autofill_variable/>
+        <category/>
+        <description/>
+        <label>War Fighting Functions</label>
+        <mandatory>false</mandatory>
+        <name>War Fighting Functions</name>
+        <order>10</order>
+        <page/>
+        <parameter_screen/>
+        <parameter_section display_value="AAR Details">794606c9333452102ed9b3373e5c7be7</parameter_section>
+        <placeholder/>
+        <readonly>false</readonly>
+        <sys_class_name>sys_sg_input</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-09-20 19:56:05</sys_created_on>
+        <sys_id>4a78c20d333452102ed9b3373e5c7bbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>War Fighting Functions</sys_name>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name>sys_sg_input_4a78c20d333452102ed9b3373e5c7bbf</sys_update_name>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-09-20 19:56:05</sys_updated_on>
+        <type display_value="Choice">8dfb205517021010f2b43b9fadb9592e</type>
+    </sys_sg_input>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input_attribute">
+    <sys_sg_input_attribute action="INSERT_OR_UPDATE">
+        <input display_value="War Fighting Functions">dba1e20d33f452102ed9b3373e5c7b53</input>
+        <name>Field</name>
+        <sys_class_name>sys_sg_input_attribute</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-09-20 21:46:14</sys_created_on>
+        <sys_id>13a1e20d33f452102ed9b3373e5c7b59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Field</sys_name>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name>sys_sg_input_attribute_13a1e20d33f452102ed9b3373e5c7b59</sys_update_name>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-09-20 21:46:14</sys_updated_on>
+        <value>war_fighting_functions</value>
+    </sys_sg_input_attribute>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_parameter_page">
+    <sys_sg_parameter_page action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Event</name>
+        <order>10</order>
+        <parameter_screen display_value="AAR TEST Input Screen">68c58689333452102ed9b3373e5c7b22</parameter_screen>
+        <sys_class_name>sys_sg_parameter_page</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-09-20 19:44:54</sys_created_on>
+        <sys_id>cae58689333452102ed9b3373e5c7ba1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Event</sys_name>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name>sys_sg_parameter_page_cae58689333452102ed9b3373e5c7ba1</sys_update_name>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-09-20 21:29:30</sys_updated_on>
+    </sys_sg_parameter_page>
+</record_update>

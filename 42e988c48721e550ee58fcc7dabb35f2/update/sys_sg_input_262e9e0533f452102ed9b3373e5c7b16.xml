@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input">
+    <sys_sg_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <autofill_variable/>
+        <category/>
+        <description>has to be registered to show up in reference</description>
+        <label>Event</label>
+        <mandatory>false</mandatory>
+        <name>Registered Event</name>
+        <order>10</order>
+        <page/>
+        <parameter_screen/>
+        <parameter_section display_value="Event">a8c58689333452102ed9b3373e5c7b27</parameter_section>
+        <placeholder/>
+        <readonly>false</readonly>
+        <sys_class_name>sys_sg_input</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-09-20 21:30:53</sys_created_on>
+        <sys_id>262e9e0533f452102ed9b3373e5c7b16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event</sys_name>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name>sys_sg_input_262e9e0533f452102ed9b3373e5c7b16</sys_update_name>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-09-20 21:30:53</sys_updated_on>
+        <type display_value="Reference">770c605517021010f2b43b9fadb95900</type>
+    </sys_sg_input>
+</record_update>
