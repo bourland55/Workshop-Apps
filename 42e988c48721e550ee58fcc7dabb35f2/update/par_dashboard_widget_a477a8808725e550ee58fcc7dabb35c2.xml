@@ -1,16 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
     <par_dashboard_widget action="INSERT_OR_UPDATE">
         <canvas display_value="">6077a8808725e550ee58fcc7dabb3578</canvas>
-        <component display_value="">259e0221ff18a75c5f5f0fb28fa5d32f</component>
+        <component display_value="Calendar Report">259e0221ff18a75c5f5f0fb28fa5d32f</component>
         <component_props>{"table":"x_snc_army_learn_0_event","reportSource":"","encodedQuery":"","startDateField":"expected_start","endDateField":"work_end","eventDisplayFields":"short_description,event_type","componentTitle":"Events","followFilters":true,"showFilterOverview":true,"showDescription":false,"componentDescription":"","viewType":"MONTH","eventColor":""}</component_props>
         <h>31</h>
         <name/>
+        <stored_component/>
         <sys_class_name>par_dashboard_widget</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-08 04:31:54</sys_created_on>
+        <sys_domain>global</sys_domain>
         <sys_id>a477a8808725e550ee58fcc7dabb35c2</sys_id>
         <sys_mod_count>5</sys_mod_count>
         <sys_name/>
+        <sys_overrides/>
         <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
@@ -19,6 +22,7 @@
         <sys_updated_on>2023-07-26 20:43:44</sys_updated_on>
         <visualization/>
         <w>48</w>
+        <widget_props/>
         <x>0</x>
         <y>0</y>
     </par_dashboard_widget>

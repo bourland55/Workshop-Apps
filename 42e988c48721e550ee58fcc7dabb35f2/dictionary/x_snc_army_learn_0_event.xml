@@ -2,9 +2,9 @@
     <element db_object_id="e57d7a704790b150412ec035126d4310" extends="task" label="Event" max_length="40" name="x_snc_army_learn_0_event" text_index="true" type="collection">
         <element choice="1" label="Event type" max_length="40" name="event_type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Live Fire" sequence="0" value="live_fire"/>
-                <element inactive_on_update="false" label="Training" sequence="1" value="training"/>
                 <element inactive_on_update="false" label="Exercise" sequence="2" value="exercise"/>
+                <element inactive_on_update="false" label="Training" sequence="1" value="training"/>
+                <element inactive_on_update="false" label="Live Fire" sequence="0" value="live_fire"/>
             </choice>
         </element>
     </element>

@@ -23,6 +23,7 @@
         <sys_updated_on>2023-03-08 03:36:32</sys_updated_on>
         <title>AAR Post Event</title>
         <type>one_to_many</type>
+        <version/>
         <write_roles/>
     </item_option_new_set>
 </record_update>

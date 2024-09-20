@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
     <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
         <includes/>
         <macroponent display_value="Army Event Record Page">e0d1208487e1e550ee58fcc7dabb3534</macroponent>
         <name>viewport_gph/initiallyCollapsed</name>

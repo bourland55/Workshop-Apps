@@ -4,14 +4,20 @@
         <acls/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>aar_event_main</internal_name>
         <label_cache>[{"name":"Created_1.current.short_description","label":"Trigger - Record Created➛Event Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_snc_army_learn_0_event","column_name":"short_description"},{"name":"Created_1.current.assigned_to.first_name","label":"Trigger - Record Created➛Event Record➛Event Owner➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Created_1.current.assigned_to.email","label":"Trigger - Record Created➛Event Record➛Event Owner➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current.assigned_to","label":"Trigger - Record Created➛Event Record➛Event Owner","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_army_learn_0_event","column_name":"assigned_to"},{"name":"160c1788-d79e-44d8-b5ae-582a7d29dbe9.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.c5124fb84790b150412ec035126d4317}}","label":"Event Coordinator","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Created_1.current","label":"Trigger - Record Created➛Event Record","reference":"x_snc_army_learn_0_event","reference_display":"Event","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
         <master_snapshot>ef8927344718b150412ec035126d434c</master_snapshot>
+        <master_snapshot_digest/>
         <name>AAR Event Main</name>
         <natlang/>
         <outputs/>
@@ -23,22 +29,24 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>published</status>
+        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>lily.liang</sys_created_by>
         <sys_created_on>2023-07-25 16:25:28</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2ccf3ab44790b150412ec035126d439f</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>AAR Event Main</sys_name>
         <sys_overrides/>
         <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
         <sys_update_name>sys_hub_flow_2ccf3ab44790b150412ec035126d439f</sys_update_name>
-        <sys_updated_by>lily.liang</sys_updated_by>
-        <sys_updated_on>2023-07-26 20:37:53</sys_updated_on>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-09-20 17:01:51</sys_updated_on>
         <type>flow</type>
+        <version/>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=2ccf3ab44790b150412ec035126d439f"/>
     <sys_variable_value action="delete_multiple" query="document_key=2ccf3ab44790b150412ec035126d439f"/>
@@ -82,54 +90,6 @@
         <trigger display_value="">089967344718b150412ec035126d430c</trigger>
     </sys_trigger_runner_mapping>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=2ccf3ab44790b150412ec035126d439f^sys_idNOT INb71341d947183110412ec035126d4313"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=2ccf3ab44790b150412ec035126d439f^sys_idNOT INd133cb3c4790b150412ec035126d4391"/>
-    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
-        <comment/>
-        <display_text/>
-        <flow display_value="AAR Event Main">2ccf3ab44790b150412ec035126d439f</flow>
-        <name>Created</name>
-        <remote_sys_id/>
-        <sys_created_by>lily.liang</sys_created_by>
-        <sys_created_on>2023-07-25 16:40:33</sys_created_on>
-        <sys_id>d133cb3c4790b150412ec035126d4391</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>lily.liang</sys_updated_by>
-        <sys_updated_on>2023-07-26 20:37:53</sys_updated_on>
-        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
-        <trigger_inputs/>
-        <trigger_outputs/>
-        <trigger_type>record_create</trigger_type>
-    </sys_hub_trigger_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=d133cb3c4790b150412ec035126d4391"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_trigger_instance</document>
-        <document_key>d133cb3c4790b150412ec035126d4391</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>lily.liang</sys_created_by>
-        <sys_created_on>2023-07-25 16:40:33</sys_created_on>
-        <sys_id>1533cb3c4790b150412ec035126d4392</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>lily.liang</sys_updated_by>
-        <sys_updated_on>2023-07-25 16:40:33</sys_updated_on>
-        <value>^EQ</value>
-        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_trigger_instance</document>
-        <document_key>d133cb3c4790b150412ec035126d4391</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>lily.liang</sys_created_by>
-        <sys_created_on>2023-07-25 16:40:33</sys_created_on>
-        <sys_id>1d33cb3c4790b150412ec035126d4392</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>lily.liang</sys_updated_by>
-        <sys_updated_on>2023-07-25 16:40:33</sys_updated_on>
-        <value>x_snc_army_learn_0_event</value>
-        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
-    </sys_variable_value>
     <sys_hub_flow_stage action="delete_multiple" query="flow=2ccf3ab44790b150412ec035126d439f"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=2ccf3ab44790b150412ec035126d439f^sys_idNOT IN68cf3ab44790b150412ec035126d43a0"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -228,6 +188,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9933cb3c4790b150412ec035126d4386"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -311,17 +272,68 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d133cb3c4790b150412ec035126d438c"/>
     <sys_hub_flow_output action="delete_multiple" query="model=2ccf3ab44790b150412ec035126d439f"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=2ccf3ab44790b150412ec035126d439f"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=2ccf3ab44790b150412ec035126d439f^sys_idNOT INd133cb3c4790b150412ec035126d4391"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="AAR Event Main">2ccf3ab44790b150412ec035126d439f</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>lily.liang</sys_created_by>
+        <sys_created_on>2023-07-25 16:40:33</sys_created_on>
+        <sys_id>d133cb3c4790b150412ec035126d4391</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>lily.liang</sys_updated_by>
+        <sys_updated_on>2023-07-26 20:37:53</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d133cb3c4790b150412ec035126d4391"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d133cb3c4790b150412ec035126d4391</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lily.liang</sys_created_by>
+        <sys_created_on>2023-07-25 16:40:33</sys_created_on>
+        <sys_id>1533cb3c4790b150412ec035126d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lily.liang</sys_updated_by>
+        <sys_updated_on>2023-07-25 16:40:33</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d133cb3c4790b150412ec035126d4391</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lily.liang</sys_created_by>
+        <sys_created_on>2023-07-25 16:40:33</sys_created_on>
+        <sys_id>1d33cb3c4790b150412ec035126d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lily.liang</sys_updated_by>
+        <sys_updated_on>2023-07-25 16:40:33</sys_updated_on>
+        <value>x_snc_army_learn_0_event</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
     <sys_hub_action_instance action="delete_multiple" query="flow=2ccf3ab44790b150412ec035126d439f^sys_idNOT IN1533cb3c4790b150412ec035126d4399,c48e4f704714b150412ec035126d435e,e933cb3c4790b150412ec035126d43a7"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="AAR Event Main">2ccf3ab44790b150412ec035126d439f</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -471,9 +483,11 @@
         <action_inputs/>
         <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="AAR Event Main">2ccf3ab44790b150412ec035126d439f</flow>
+        <generation_source/>
         <order>4</order>
         <parent_ui_id>78d39b3c-b1f6-42a2-8d78-fda23eadb27e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -533,9 +547,11 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="AAR Event Main">2ccf3ab44790b150412ec035126d439f</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id>78d39b3c-b1f6-42a2-8d78-fda23eadb27e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -616,9 +632,9 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=e933cb3c4790b150412ec035126d43a7"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=e933cb3c4790b150412ec035126d43a7"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=2ccf3ab44790b150412ec035126d439f"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=2ccf3ab44790b150412ec035126d439f^sys_idNOT INad33cb3c4790b150412ec035126d439e"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">6133cb3c4790b150412ec035126d439e</block>
         <comment/>
         <connected_to/>
@@ -629,6 +645,7 @@
         <flow display_value="AAR Event Main">2ccf3ab44790b150412ec035126d439f</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -690,6 +707,7 @@
     </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ad33cb3c4790b150412ec035126d439e"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ad33cb3c4790b150412ec035126d439e"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=2ccf3ab44790b150412ec035126d439f"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=2ccf3ab44790b150412ec035126d439f^sys_idNOT IN2533cb3c4790b150412ec035126d43b7,2d33cb3c4790b150412ec035126d43b6"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>2ccf3ab44790b150412ec035126d439f</attached_to>
@@ -740,11 +758,11 @@
         <sys_created_on>2023-07-25 16:40:33</sys_created_on>
         <sys_id>1533cb3c4790b150412ec035126d438b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2ccf3ab44790b150412ec035126d439f_current_en</sys_update_name>
         <sys_updated_by>lily.liang</sys_updated_by>
         <sys_updated_on>2023-07-25 16:40:33</sys_updated_on>
         <url/>
@@ -763,11 +781,11 @@
         <sys_created_on>2023-07-25 16:40:33</sys_created_on>
         <sys_id>5933cb3c4790b150412ec035126d438e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2ccf3ab44790b150412ec035126d439f_table_name_en</sys_update_name>
         <sys_updated_by>lily.liang</sys_updated_by>
         <sys_updated_on>2023-07-25 16:40:33</sys_updated_on>
         <url/>
@@ -781,11 +799,14 @@
         <acls/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>aar_event_main</internal_name>
         <label_cache>[{"name":"Created_1.current.short_description","label":"Trigger - Record Created➛Event Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_snc_army_learn_0_event","column_name":"short_description"},{"name":"Created_1.current.assigned_to.first_name","label":"Trigger - Record Created➛Event Record➛Event Owner➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Created_1.current.assigned_to.email","label":"Trigger - Record Created➛Event Record➛Event Owner➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current.assigned_to","label":"Trigger - Record Created➛Event Record➛Event Owner","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_army_learn_0_event","column_name":"assigned_to"},{"name":"160c1788-d79e-44d8-b5ae-582a7d29dbe9.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.c5124fb84790b150412ec035126d4317}}","label":"Event Coordinator","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Created_1.current","label":"Trigger - Record Created➛Event Record","reference":"x_snc_army_learn_0_event","reference_display":"Event","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
         <master>true</master>
@@ -814,57 +835,10 @@
         <sys_updated_by>lily.liang</sys_updated_by>
         <sys_updated_on>2023-07-26 20:37:52</sys_updated_on>
         <type>flow</type>
+        <version/>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=ef8927344718b150412ec035126d434c"/>
     <sys_variable_value action="delete_multiple" query="document_key=ef8927344718b150412ec035126d434c"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=ef8927344718b150412ec035126d434c^sys_idNOT IN778927344718b150412ec035126d43d7"/>
-    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
-        <comment/>
-        <display_text/>
-        <flow display_value="AAR Event Main">ef8927344718b150412ec035126d434c</flow>
-        <name>Created</name>
-        <remote_sys_id/>
-        <sys_created_by>lily.liang</sys_created_by>
-        <sys_created_on>2023-07-25 19:28:06</sys_created_on>
-        <sys_id>778927344718b150412ec035126d43d7</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>lily.liang</sys_updated_by>
-        <sys_updated_on>2023-07-26 20:37:52</sys_updated_on>
-        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
-        <trigger_inputs/>
-        <trigger_outputs/>
-        <trigger_type>record_create</trigger_type>
-    </sys_hub_trigger_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=778927344718b150412ec035126d43d7"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_trigger_instance</document>
-        <document_key>778927344718b150412ec035126d43d7</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>lily.liang</sys_created_by>
-        <sys_created_on>2023-07-25 19:28:06</sys_created_on>
-        <sys_id>338927344718b150412ec035126d43d9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>lily.liang</sys_updated_by>
-        <sys_updated_on>2023-07-25 19:28:06</sys_updated_on>
-        <value>^EQ</value>
-        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_trigger_instance</document>
-        <document_key>778927344718b150412ec035126d43d7</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>lily.liang</sys_created_by>
-        <sys_created_on>2023-07-25 19:28:06</sys_created_on>
-        <sys_id>f38927344718b150412ec035126d43d9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>lily.liang</sys_updated_by>
-        <sys_updated_on>2023-07-25 19:28:06</sys_updated_on>
-        <value>x_snc_army_learn_0_event</value>
-        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
-    </sys_variable_value>
     <sys_hub_flow_stage action="delete_multiple" query="flow=ef8927344718b150412ec035126d434c"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=ef8927344718b150412ec035126d434c^sys_idNOT INaf8927344718b150412ec035126d434d"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -963,6 +937,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6b8927344718b150412ec035126d4398"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1046,17 +1021,68 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e38927344718b150412ec035126d434f"/>
     <sys_hub_flow_output action="delete_multiple" query="model=ef8927344718b150412ec035126d434c"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=ef8927344718b150412ec035126d434c"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=ef8927344718b150412ec035126d434c^sys_idNOT IN778927344718b150412ec035126d43d7"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="AAR Event Main">ef8927344718b150412ec035126d434c</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>lily.liang</sys_created_by>
+        <sys_created_on>2023-07-25 19:28:06</sys_created_on>
+        <sys_id>778927344718b150412ec035126d43d7</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>lily.liang</sys_updated_by>
+        <sys_updated_on>2023-07-26 20:37:52</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=778927344718b150412ec035126d43d7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>778927344718b150412ec035126d43d7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lily.liang</sys_created_by>
+        <sys_created_on>2023-07-25 19:28:06</sys_created_on>
+        <sys_id>338927344718b150412ec035126d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lily.liang</sys_updated_by>
+        <sys_updated_on>2023-07-25 19:28:06</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>778927344718b150412ec035126d43d7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lily.liang</sys_created_by>
+        <sys_created_on>2023-07-25 19:28:06</sys_created_on>
+        <sys_id>f38927344718b150412ec035126d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lily.liang</sys_updated_by>
+        <sys_updated_on>2023-07-25 19:28:06</sys_updated_on>
+        <value>x_snc_army_learn_0_event</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
     <sys_hub_action_instance action="delete_multiple" query="flow=ef8927344718b150412ec035126d434c^sys_idNOT IN3f8927344718b150412ec035126d43be,778927344718b150412ec035126d43d5,b38927344718b150412ec035126d43b4"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="AAR Event Main">ef8927344718b150412ec035126d434c</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id>78d39b3c-b1f6-42a2-8d78-fda23eadb27e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1142,9 +1168,11 @@
         <action_inputs/>
         <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
         <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="AAR Event Main">ef8927344718b150412ec035126d434c</flow>
+        <generation_source/>
         <order>4</order>
         <parent_ui_id>78d39b3c-b1f6-42a2-8d78-fda23eadb27e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1204,9 +1232,11 @@
         <action_inputs/>
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="AAR Event Main">ef8927344718b150412ec035126d434c</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1351,9 +1381,9 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=b38927344718b150412ec035126d43b4"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=b38927344718b150412ec035126d43b4"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=ef8927344718b150412ec035126d434c"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=ef8927344718b150412ec035126d434c^sys_idNOT INab8927344718b150412ec035126d43a4"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">6133cb3c4790b150412ec035126d439e</block>
         <comment/>
         <connected_to/>
@@ -1364,6 +1394,7 @@
         <flow display_value="AAR Event Main">ef8927344718b150412ec035126d434c</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1425,6 +1456,7 @@
     </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ab8927344718b150412ec035126d43a4"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ab8927344718b150412ec035126d43a4"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=ef8927344718b150412ec035126d434c"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=ef8927344718b150412ec035126d434c^sys_idNOT IN3b8927344718b150412ec035126d43d9,bf8927344718b150412ec035126d43d9"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>ef8927344718b150412ec035126d434c</attached_to>
@@ -1475,11 +1507,11 @@
         <sys_created_on>2023-07-25 19:28:05</sys_created_on>
         <sys_id>238927344718b150412ec035126d4395</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_ef8927344718b150412ec035126d434c_current_en</sys_update_name>
         <sys_updated_by>lily.liang</sys_updated_by>
         <sys_updated_on>2023-07-25 19:28:05</sys_updated_on>
         <url/>
@@ -1498,11 +1530,11 @@
         <sys_created_on>2023-07-25 19:28:05</sys_created_on>
         <sys_id>a78927344718b150412ec035126d439d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_ef8927344718b150412ec035126d434c_table_name_en</sys_update_name>
         <sys_updated_by>lily.liang</sys_updated_by>
         <sys_updated_on>2023-07-25 19:28:05</sys_updated_on>
         <url/>

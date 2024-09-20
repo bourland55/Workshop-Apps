@@ -3,6 +3,7 @@
         <active>true</active>
         <app_config display_value="Army Learning Library Config">d7b12844a1e1e5505f5f7c03199607da</app_config>
         <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings>[ ]</event_mappings>
         <macroponent display_value="Recommendation Record Page">5cd1ec4487e1e550ee58fcc7dabb35ce</macroponent>
         <macroponent_config>{
@@ -49,7 +50,7 @@
 }</macroponent_config>
         <name>Recommendation Record Page</name>
         <order>100</order>
-        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <required_translations>[ ]</required_translations>
         <rollback_screen/>
         <screen_condition>table=x_snc_army_learn_0_recommendation</screen_condition>

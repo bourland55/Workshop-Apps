@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>recommendatio0</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -18,6 +20,8 @@
         <sys_updated_on>2023-03-08 14:24:15</sys_updated_on>
         <table>x_snc_army_learn_0_learning_assessments</table>
         <ui_policy display_value="stage is recommend show action">a10f22c087252950ee58fcc7dabb356f</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
         <visible>true</visible>
     </sys_ui_policy_action>
 </record_update>

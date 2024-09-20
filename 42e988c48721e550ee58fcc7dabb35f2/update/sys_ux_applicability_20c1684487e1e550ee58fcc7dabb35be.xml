@@ -4,6 +4,7 @@
         <api_name>x_snc_army_learn_0.Audience for app army-learning-library</api_name>
         <description/>
         <name>Audience for app army-learning-library</name>
+        <role_names/>
         <roles>d2e9c8c48721e550ee58fcc7dabb3508,d6e9c8c48721e550ee58fcc7dabb350c</roles>
         <sys_class_name>sys_ux_applicability</sys_class_name>
         <sys_created_by>admin</sys_created_by>

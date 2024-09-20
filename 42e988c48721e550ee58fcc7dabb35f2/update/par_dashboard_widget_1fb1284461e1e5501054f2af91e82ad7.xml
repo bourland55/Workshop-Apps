@@ -1,16 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
     <par_dashboard_widget action="INSERT_OR_UPDATE">
         <canvas display_value="">93b128448ae1e550b6c181b3e111bad7</canvas>
-        <component display_value="now-heading">3a64f550256090d9578ede76158e899c</component>
+        <component display_value="">3a64f550256090d9578ede76158e899c</component>
         <component_props>{"variant":"header-tertiary","label":"Happening now","wontWrap":false,"hasNoMargin":false,"level":"1"}</component_props>
         <h>2</h>
         <name/>
+        <stored_component/>
         <sys_class_name>par_dashboard_widget</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-08 04:06:59</sys_created_on>
+        <sys_domain>global</sys_domain>
         <sys_id>1fb1284461e1e5501054f2af91e82ad7</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name/>
+        <sys_overrides/>
         <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
@@ -19,6 +22,7 @@
         <sys_updated_on>2023-04-24 20:48:56</sys_updated_on>
         <visualization/>
         <w>40</w>
+        <widget_props/>
         <x>8</x>
         <y>0</y>
     </par_dashboard_widget>

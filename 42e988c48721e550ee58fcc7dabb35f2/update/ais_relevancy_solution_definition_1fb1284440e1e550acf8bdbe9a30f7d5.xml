@@ -9,6 +9,7 @@
             <item display_table="ais_search_profile" display_value="Army Learning Library search profile" endquery="false" field="search_profile" goto="false" newquery="false" operator="=" or="false" value="dbb128449ae1e550de08129a6b2ebdd5"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
+        <pretrained>false</pretrained>
         <profile display_value="Army Learning Library search profile">dbb128449ae1e550de08129a6b2ebdd5</profile>
         <request_source>api</request_source>
         <solution_label>ais_relevancy_dbb128449ae1e550de08129a6b2ebdd5</solution_label>
@@ -32,6 +33,7 @@
         <sys_updated_on>2023-03-08 04:06:58</sys_updated_on>
         <table>ais_relevancy_training_staging</table>
         <training_frequency>every_30_days</training_frequency>
+        <triggered_source>API</triggered_source>
         <word_vector_corpus/>
     </ais_relevancy_solution_definition>
 </record_update>

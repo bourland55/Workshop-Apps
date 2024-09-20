@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>explanation_for_retrain</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -18,6 +20,8 @@
         <sys_updated_on>2023-03-08 13:50:09</sys_updated_on>
         <table>x_snc_army_learn_0_recommendation</table>
         <ui_policy display_value="show explanation for retrain">9a37e2c087e12950ee58fcc7dabb3597</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
         <visible>true</visible>
     </sys_ui_policy_action>
 </record_update>

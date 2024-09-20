@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
     <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
         <includes/>
         <macroponent display_value="Record default">5bb12844fee1e55063dd48adefc669d3</macroponent>
         <name>viewport_gph/initiallyCollapsed</name>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
     <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
         <includes/>
         <macroponent display_value="Recommendation Record Page">5cd1ec4487e1e550ee58fcc7dabb35ce</macroponent>
         <name>viewport_gph/initiallyCollapsed</name>

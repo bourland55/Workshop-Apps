@@ -1,16 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
     <par_dashboard_widget action="INSERT_OR_UPDATE">
         <canvas display_value="">93b128448ae1e550b6c181b3e111bad7</canvas>
-        <component display_value="now-record-list-connected-snapshot">7219cee4e0177c3cf2e48d550ce0f71b</component>
+        <component display_value="">7219cee4e0177c3cf2e48d550ce0f71b</component>
         <component_props>{"listTitle":null,"table":"x_snc_army_learn_0_recommendation","query":"","columns":"state,event,sustain_or_improve,assigned_to,concur_or_non_concur,recommendation,priority","groupByField":"","limit":30,"maxColumns":6,"page":1,"highlightedValueConfigId":"","hideHighlightedValues":false,"hideHeader":true,"hideTitle":false,"hideTitleRowCount":false,"hideRefreshButton":false,"hideLastRefreshedText":false,"hideColumnResizing":true,"hideColumnGrouping":true,"hideColumnFiltering":true,"hideColumnSorting":false,"hidePersonalization":true,"hideColumnReorder":true,"hideDotwalk":true,"hideInlineEditing":true,"hideHighlightContent":false,"highlightContent":"{ \"patterns\": [], \"color\" : \"\" }","hideLinks":false,"hideViewAll":false,"hideCellFilter":true,"hideCheckboxHover":true,"hideFilterPanel":false,"hideFirstPage":false,"hideLastPage":false,"hideLimitSelector":false,"hideMenuButton":true,"hideMultiEdit":false,"hideDeclarativeActions":false,"hideNextPage":false,"hidePages":false,"hidePagination":true,"hidePanel":true,"hidePanelAdvanced":false,"hidePanelConditionDelete":false,"hidePanelFooter":false,"hidePanelRestore":false,"hidePreviousPage":false,"hideQuickEdit":true,"hideRange":false,"hideRowCount":false,"hideRowSelector":false,"hideSelectAll":true,"hideEmptyStateImage":false,"hideDBViews":false,"hideUnnecessaryRowSelectors":true,"overrideWordWrapUserPref":true,"wordWrap":true,"maxCharLimit":4000,"refreshRequested":"","recordSelectedTable":"","recordSelectedSysId":"","recordSelectedQuery":"","recordSelectedView":"","label":"Recommendations","fixedQuery":""}</component_props>
         <h>15</h>
         <name/>
+        <stored_component/>
         <sys_class_name>par_dashboard_widget</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-08 04:07:00</sys_created_on>
+        <sys_domain>global</sys_domain>
         <sys_id>13b1284455e1e5500d386e597c2cead8</sys_id>
         <sys_mod_count>11</sys_mod_count>
         <sys_name/>
+        <sys_overrides/>
         <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
@@ -19,6 +22,7 @@
         <sys_updated_on>2023-07-26 20:32:25</sys_updated_on>
         <visualization/>
         <w>48</w>
+        <widget_props/>
         <x>0</x>
         <y>15</y>
     </par_dashboard_widget>

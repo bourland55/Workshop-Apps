@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>b3f2d45987f96950ee58fcc7dabb3539</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="x_snc_army_learn_0_learning_assessments">
+    <x_snc_army_learn_0_learning_assessments action="INSERT_OR_UPDATE">
+        <action_status/>
+        <active>true</active>
+        <activity_due/>
+        <additional_assignee_list/>
+        <agile_story/>
+        <approval>not requested</approval>
+        <approval_history/>
+        <approval_set/>
+        <assigned_to/>
+        <assignment_group/>
+        <business_duration/>
+        <business_service/>
+        <calendar_duration/>
+        <close_notes/>
+        <closed_at/>
+        <closed_by/>
+        <cmdb_ci/>
+        <comments/>
+        <comments_and_work_notes/>
+        <company/>
+        <contact_type/>
+        <contract/>
+        <correlation_display/>
+        <correlation_id/>
+        <delivery_plan/>
+        <delivery_task/>
+        <description/>
+        <due_date/>
+        <escalation>0</escalation>
+        <event display_value="">8a668b4487e52950ee58fcc7dabb3530</event>
+        <expected_start/>
+        <follow_up/>
+        <group_list/>
+        <impact>3</impact>
+        <justification/>
+        <knowledge>false</knowledge>
+        <location/>
+        <made_sla>true</made_sla>
+        <needs_attention>false</needs_attention>
+        <number>LAT0001007</number>
+        <opened_at>2023-03-24 10:30:39</opened_at>
+        <opened_by display_value="">system</opened_by>
+        <order/>
+        <parent/>
+        <priority>4</priority>
+        <reassignment_count>0</reassignment_count>
+        <recommendatio0/>
+        <recommendation display_value="REC0001004">f7f2945987f96950ee58fcc7dabb35eb</recommendation>
+        <rejection_goto/>
+        <route_reason/>
+        <sentiment/>
+        <service_offering/>
+        <short_description> Platoon FTX and Improve</short_description>
+        <skills/>
+        <sla_due/>
+        <sn_esign_document/>
+        <sn_esign_esignature_configuration/>
+        <sn_fin_accounting_period/>
+        <sn_hr_le_activity/>
+        <stage>Initial Submission</stage>
+        <state>1</state>
+        <sys_class_name>x_snc_army_learn_0_learning_assessments</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-03-24 10:30:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b3f2d45987f96950ee58fcc7dabb3539</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-03-24 10:30:39</sys_updated_on>
+        <task_effective_number>LAT0001007</task_effective_number>
+        <time_worked/>
+        <universal_request/>
+        <upon_approval>proceed</upon_approval>
+        <upon_reject>cancel</upon_reject>
+        <urgency>3</urgency>
+        <user_input/>
+        <variables/>
+        <watch_list/>
+        <wf_activity/>
+        <work_end/>
+        <work_notes/>
+        <work_notes_list/>
+        <work_start/>
+    </x_snc_army_learn_0_learning_assessments>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-09-20 17:22:52</sys_created_on>
+        <sys_id>bd65a9c987f8d2107eabca25dabb356e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LAT0001007</sys_name>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name>sys_metadata_link_bd65a9c987f8d2107eabca25dabb356e</sys_update_name>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-09-20 17:22:52</sys_updated_on>
+        <tablename>x_snc_army_learn_0_learning_assessments</tablename>
+    </sys_metadata_link>
+</record_update>
