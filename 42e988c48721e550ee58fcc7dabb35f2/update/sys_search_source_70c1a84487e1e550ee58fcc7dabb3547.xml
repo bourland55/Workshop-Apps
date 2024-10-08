@@ -19,4 +19,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-08 04:07:04</sys_updated_on>
     </sys_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=70c1a84487e1e550ee58fcc7dabb3547"/>
 </record_update>

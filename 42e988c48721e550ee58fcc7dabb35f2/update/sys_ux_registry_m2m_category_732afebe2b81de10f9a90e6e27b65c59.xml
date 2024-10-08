@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_registry_m2m_category">
+    <sys_ux_registry_m2m_category action="INSERT_OR_UPDATE">
+        <experience_category display_value="Workspace">afb4e3e173322010f0ca1e666bf6a726</experience_category>
+        <order/>
+        <page_registry display_value="Army Learning Library 2024">3b2afebe7d81de1028ecb249f4d1bb6a</page_registry>
+        <sys_class_name>sys_ux_registry_m2m_category</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-10-08 20:18:24</sys_created_on>
+        <sys_id>732afebe2b81de10f9a90e6e27b65c59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name>sys_ux_registry_m2m_category_732afebe2b81de10f9a90e6e27b65c59</sys_update_name>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-10-08 20:18:24</sys_updated_on>
+    </sys_ux_registry_m2m_category>
+</record_update>

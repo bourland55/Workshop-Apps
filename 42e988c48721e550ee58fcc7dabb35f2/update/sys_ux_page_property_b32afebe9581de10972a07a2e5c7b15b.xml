@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Ribbon Config ID</description>
+        <name>ribbonConfigId</name>
+        <page display_value="Army Learning Library 2024">3b2afebe7d81de1028ecb249f4d1bb6a</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-10-08 20:18:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>b32afebe9581de10972a07a2e5c7b15b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ribbonConfigId</sys_name>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name>sys_ux_page_property_b32afebe9581de10972a07a2e5c7b15b</sys_update_name>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-10-08 20:18:25</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_snc_army_learn_0.3b2afebe7d81de1028ecb249f4d1bb6a.root.ribbonConfigId</unique_name>
+        <value>7b2afebe3581de1079f6bf05c16d615a</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=b32afebe9581de10972a07a2e5c7b15b"/>
+</record_update>

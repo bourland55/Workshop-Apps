@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="kb_knowledge" version="2" view="workspace-army-learning-library-2024-0">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Knowledge - Workspace Army Learning Library 2024 0" name="kb_knowledge" related_list="NULL" sys_domain="global" view="772afebef281de101e6f90f8ee097261">c04a76fefb81de1035e4f9a16eefdc8d</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>m2m_kb_ci.kb_knowledge</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 20:18:39</sys_created_on>
+            <sys_id>8c4a76fefb81de1035e4f9a16eefdc8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 20:18:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Knowledge - Workspace Army Learning Library 2024 0" name="kb_knowledge" related_list="NULL" sys_domain="global" view="772afebef281de101e6f90f8ee097261">c04a76fefb81de1035e4f9a16eefdc8d</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:f9b6dfcecba3330016e9582df8076d45</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 20:18:39</sys_created_on>
+            <sys_id>804a76fefb81de1035e4f9a16eefdc8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 20:18:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Knowledge - Workspace Army Learning Library 2024 0" name="kb_knowledge" related_list="NULL" sys_domain="global" view="772afebef281de101e6f90f8ee097261">c04a76fefb81de1035e4f9a16eefdc8d</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>REL:82d8fcd567030300d358bb2d07415a70</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 20:18:39</sys_created_on>
+            <sys_id>844a76fefb81de1035e4f9a16eefdc8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 20:18:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Knowledge - Workspace Army Learning Library 2024 0" name="kb_knowledge" related_list="NULL" sys_domain="global" view="772afebef281de101e6f90f8ee097261">c04a76fefb81de1035e4f9a16eefdc8d</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>REL:8e1ddaa3c30321000096dfdc64d3aebd</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 20:18:39</sys_created_on>
+            <sys_id>084a76fefb81de1035e4f9a16eefdca7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 20:18:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Knowledge - Workspace Army Learning Library 2024 0" name="kb_knowledge" related_list="NULL" sys_domain="global" view="772afebef281de101e6f90f8ee097261">c04a76fefb81de1035e4f9a16eefdc8d</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>REL:fb55c83adb132200a042f278f0b8f562</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 20:18:39</sys_created_on>
+            <sys_id>0c4a76fefb81de1035e4f9a16eefdca7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 20:18:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Knowledge - Workspace Army Learning Library 2024 0" name="kb_knowledge" related_list="NULL" sys_domain="global" view="772afebef281de101e6f90f8ee097261">c04a76fefb81de1035e4f9a16eefdc8d</list_id>
+            <order_by/>
+            <position>5</position>
+            <related_list>kb_department.article</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 20:18:39</sys_created_on>
+            <sys_id>004a76fefb81de1035e4f9a16eefdca8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 20:18:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Knowledge - Workspace Army Learning Library 2024 0" name="kb_knowledge" related_list="NULL" sys_domain="global" view="772afebef281de101e6f90f8ee097261">c04a76fefb81de1035e4f9a16eefdc8d</list_id>
+            <order_by/>
+            <position>6</position>
+            <related_list>REL:6b04aaa10a0a0b9a00bd55d1e6f0782d</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 20:18:39</sys_created_on>
+            <sys_id>044a76fefb81de1035e4f9a16eefdca8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 20:18:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Knowledge - Workspace Army Learning Library 2024 0" name="kb_knowledge" related_list="NULL" sys_domain="global" view="772afebef281de101e6f90f8ee097261">c04a76fefb81de1035e4f9a16eefdc8d</list_id>
+            <order_by/>
+            <position>7</position>
+            <related_list>REL:801c3ada67323200d358bb2d07415a17</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 20:18:39</sys_created_on>
+            <sys_id>084a76fefb81de1035e4f9a16eefdca8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 20:18:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Knowledge - Workspace Army Learning Library 2024 0" name="kb_knowledge" related_list="NULL" sys_domain="global" view="772afebef281de101e6f90f8ee097261">c04a76fefb81de1035e4f9a16eefdc8d</list_id>
+            <order_by/>
+            <position>8</position>
+            <related_list>kb_2_kb.kb_knowledge</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 20:18:39</sys_created_on>
+            <sys_id>0c4a76fefb81de1035e4f9a16eefdca8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 20:18:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Knowledge - Workspace Army Learning Library 2024 0" name="kb_knowledge" related_list="NULL" sys_domain="global" view="772afebef281de101e6f90f8ee097261">c04a76fefb81de1035e4f9a16eefdc8d</list_id>
+            <order_by/>
+            <position>9</position>
+            <related_list>REL:aa95396273722300c1ad41244ef6a724</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 20:18:39</sys_created_on>
+            <sys_id>004a76fefb81de1035e4f9a16eefdca9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 20:18:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Knowledge - Workspace Army Learning Library 2024 0" name="kb_knowledge" related_list="NULL" sys_domain="global" view="772afebef281de101e6f90f8ee097261">c04a76fefb81de1035e4f9a16eefdc8d</list_id>
+            <order_by/>
+            <position>10</position>
+            <related_list>kb_2_sc.kb_knowledge</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 20:18:39</sys_created_on>
+            <sys_id>044a76fefb81de1035e4f9a16eefdca9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 20:18:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Knowledge - Workspace Army Learning Library 2024 0</calculated_name>
+            <filter/>
+            <name>kb_knowledge</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 20:18:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c04a76fefb81de1035e4f9a16eefdc8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Knowledge - Workspace Army Learning Library 2024 0</sys_name>
+            <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+            <sys_update_name>sys_ui_related_kb_knowledge_workspace-army-learning-library-2024-0</sys_update_name>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 20:18:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Army Learning Library 2024 0" name="workspace-army-learning-library-2024-0">772afebef281de101e6f90f8ee097261</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

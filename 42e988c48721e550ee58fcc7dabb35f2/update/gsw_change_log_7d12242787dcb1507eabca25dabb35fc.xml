@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
     <gsw_change_log action="INSERT_OR_UPDATE">
         <change_date>2023-08-02 17:59:55</change_date>
-        <changed_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</changed_by>
+        <changed_by display_value="Lily Liang">6816f79cc0a8016401c5a33be04be441</changed_by>
         <content display_value="RPA Guided Setup">5aa220be53000110bbf4ddeeff7b12ec</content>
         <related_change_log_entry/>
         <related_task_entry/>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Learning Assessments</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Learning Assessments</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">c3d18a09eb100210592dfcffcad0cd44</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-09-23 19:44:08</sys_created_on>
+        <sys_id>5482a50afbb81a50c825f663ceefdcd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Learning Assessments</sys_name>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name>sys_wizard_answer_5482a50afbb81a50c825f663ceefdcd9</sys_update_name>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-09-23 19:44:08</sys_updated_on>
+        <table/>
+        <target_url>x_snc_army_learn_0_learning_assessments.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

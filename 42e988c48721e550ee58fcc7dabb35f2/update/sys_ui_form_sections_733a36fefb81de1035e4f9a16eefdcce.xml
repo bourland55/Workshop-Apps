@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="733a36fefb81de1035e4f9a16eefdcce" sys_domain="global" table="x_snc_army_learn_0_learning_assessments" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 20:18:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b73a36fefb81de1035e4f9a16eefdcd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_army_learn_0_learning_assessments" name="x_snc_army_learn_0_learning_assessments" sys_domain="global" view="772afebef281de101e6f90f8ee097261">733a36fefb81de1035e4f9a16eefdcce</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_army_learn_0_learning_assessments" sys_domain="global" view="772afebef281de101e6f90f8ee097261">f33a36fefb81de1035e4f9a16eefdcd1</sys_ui_section>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 20:18:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 20:18:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f3a76fefb81de1035e4f9a16eefdc71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_army_learn_0_learning_assessments" name="x_snc_army_learn_0_learning_assessments" sys_domain="global" view="772afebef281de101e6f90f8ee097261">733a36fefb81de1035e4f9a16eefdcce</sys_ui_form>
+            <sys_ui_section caption="Recommendation Details" display_value="Recommendation Details" name="x_snc_army_learn_0_learning_assessments" sys_domain="global" view="772afebef281de101e6f90f8ee097261">7b3a76fefb81de1035e4f9a16eefdc70</sys_ui_section>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 20:18:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 20:18:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c4a76fefb81de1035e4f9a16eefdc8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_army_learn_0_learning_assessments" name="x_snc_army_learn_0_learning_assessments" sys_domain="global" view="772afebef281de101e6f90f8ee097261">733a36fefb81de1035e4f9a16eefdcce</sys_ui_form>
+            <sys_ui_section caption="Learning Plan" display_value="Learning Plan" name="x_snc_army_learn_0_learning_assessments" sys_domain="global" view="772afebef281de101e6f90f8ee097261">c84a76fefb81de1035e4f9a16eefdc74</sys_ui_section>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 20:18:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_army_learn_0_learning_assessments</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 20:18:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>733a36fefb81de1035e4f9a16eefdcce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_army_learn_0_learning_assessments</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+            <sys_update_name>sys_ui_form_sections_733a36fefb81de1035e4f9a16eefdcce</sys_update_name>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 20:18:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Army Learning Library 2024 0" name="workspace-army-learning-library-2024-0">772afebef281de101e6f90f8ee097261</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

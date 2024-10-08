@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a61a0bb89754f150fd9976c71153af1d" extends="sys_import_set_row" label="Imp Tmpl X Snc Army Learn 0 Army Event" max_length="40" name="u_imp_tmpl_x_snc_army_learn_0_army_event" type="collection">
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type" label="Type" max_length="40" name="u_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Owner" label="Owner" max_length="32" name="u_owner" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Start Date" label="Start Date" max_length="40" name="u_start_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Title" label="Title" max_length="40" name="u_title" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Owner" label="Owner" max_length="32" name="u_owner" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type" label="Type" max_length="40" name="u_type" type="string"/>
     </element>
 </database>

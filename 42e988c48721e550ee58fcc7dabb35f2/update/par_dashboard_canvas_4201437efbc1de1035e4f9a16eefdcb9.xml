@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas">
+    <par_dashboard_canvas action="INSERT_OR_UPDATE">
+        <dashboard display_value="Army Learning Library 2024">7b2afebe4281de10dbb8b0eb79445a63</dashboard>
+        <dashboard_tab display_value="Event Calendar">0601437efbc1de1035e4f9a16eefdcb6</dashboard_tab>
+        <layout>[{"sys_id":"8601437efbc1de1035e4f9a16eefdcce","x":0,"y":0,"w":48,"h":42,"component_id":"259e0221ff18a75c5f5f0fb28fa5d32f","component_props":"{\"configVersion\":\"23.0.0-ci-SNAPSHOT\",\"scoreSize\":\"md\",\"headingPosition\":\"top\",\"sparklineStyle\":\"area\",\"scoreIcon\":\"\",\"iconStyle\":\"background\",\"showScoreDate\":false,\"useRelativeScoreTime\":false,\"showScoreUpdateTime\":false,\"showZero\":true,\"colorConfig\":{\"type\":\"default\"},\"newReporting\":false,\"additionalGroupByConfig\":[],\"showHeader\":true,\"showTotalAggregate\":false,\"showSubAggregate\":false,\"showFirstGroupAggregate\":false,\"showSecondGroupAggregate\":false,\"hideMatrixAggregate\":false,\"wrapTitle\":false,\"showHeaderSeparator\":false,\"headingLevel\":2,\"showBorder\":true,\"bareBorder\":false,\"telemetry\":null,\"showDataPassthrough\":false,\"refreshRequest\":\"\",\"showAdditionalGroupBySelector\":false,\"dataPassthrough\":null,\"groupBy\":null,\"sortByOrder\":\"desc\",\"trendBy\":null,\"showChange\":false,\"showChangePercentage\":false,\"showTarget\":false,\"showForecast\":false,\"showForecastRange\":false,\"showTrend\":false,\"showConfidenceBand\":false,\"showGapPercentage\":false,\"showSparkline\":false,\"showMetricLabel\":false,\"showThreshold\":false,\"showComment\":false,\"followFilters\":true,\"showFilterIcon\":true,\"enableRealTimeUpdate\":false,\"enableDrilldown\":true,\"enableClickAndStay\":false,\"enableCustomEmptyState\":false,\"componentId\":\"i242rhy4\",\"emptyStateIllustration\":\"no-data\",\"emptyStateHeading\":\"No data available.\",\"emptyStateContent\":\"There are no scores available for the selected criteria. Contact your admin for more info.\",\"emptyStateAlignment\":\"vertical-centered\",\"hideDevSettings\":false,\"filterConfigurations\":\"@state.parFilters\",\"contextMenuActions\":[],\"showMaximumRange\":false,\"allowChangeDateRange\":false,\"showDateRangeByDefault\":false,\"applyDateRange\":false,\"numberOfPeriods\":3,\"showAbsolutePeriod\":false,\"scoreType\":null,\"showChangeFrom\":\"previous\",\"period\":\"M\",\"dateFormat\":\"default\",\"noDebounce\":\"\",\"table\":\"x_snc_army_learn_0_event\",\"reportSource\":\"\",\"encodedQuery\":\"\",\"startDateField\":\"expected_start\",\"endDateField\":\"work_end\",\"eventDisplayFields\":\"event_type,short_description\",\"componentTitle\":\"\",\"showFilterOverview\":true,\"showDescription\":true,\"componentDescription\":\"\",\"viewType\":\"MONTH\",\"eventColor\":\"\"}","can_edit":true}]</layout>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-10-08 20:48:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4201437efbc1de1035e4f9a16eefdcb9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name>par_dashboard_canvas_4201437efbc1de1035e4f9a16eefdcb9</sys_update_name>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-10-08 20:49:16</sys_updated_on>
+    </par_dashboard_canvas>
+</record_update>

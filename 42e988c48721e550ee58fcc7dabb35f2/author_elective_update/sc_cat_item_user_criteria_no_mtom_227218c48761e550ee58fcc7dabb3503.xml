@@ -58,7 +58,7 @@
         <update_guid_history>7254a549ea305210d68866b1ced91212:-1050724977</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Event Registration.SNC External">29f52a05333852102ed9b3373e5c7b8b</sys_audit_delete>
+        <sys_audit_delete display_value="">29f52a05333852102ed9b3373e5c7b8b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-20 22:04:57</sys_created_on>

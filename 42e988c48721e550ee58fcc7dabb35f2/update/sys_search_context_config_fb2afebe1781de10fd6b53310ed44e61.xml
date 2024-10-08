@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_context_config">
+    <sys_search_context_config action="INSERT_OR_UPDATE">
+        <collapse_attachment>false</collapse_attachment>
+        <document_match_count/>
+        <document_match_threshold/>
+        <enable_exact_match>true</enable_exact_match>
+        <enable_semantic_search>false</enable_semantic_search>
+        <evam_definition display_value="AI Search For Next Search">f78b729b53d801109fa9ddeeff7b1201</evam_definition>
+        <genius_results_limit>1</genius_results_limit>
+        <hit_highlighting>false</hit_highlighting>
+        <log_signals_server_side>false</log_signals_server_side>
+        <name>Army Learning Library 2024 AI Search Configuration</name>
+        <search_engine>ai_search</search_engine>
+        <search_profile display_value="army-learning-library-2024 Search Profile">ff2afebe6b81de1098baa9c17a89046a</search_profile>
+        <search_results_limit>10</search_results_limit>
+        <semantic_groupby/>
+        <semantic_search_mode/>
+        <show_tab_counts>true</show_tab_counts>
+        <spell_check>true</spell_check>
+        <suggestions_to_show_limit>10</suggestions_to_show_limit>
+        <sys_class_name>sys_search_context_config</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-10-08 20:18:25</sys_created_on>
+        <sys_id>fb2afebe1781de10fd6b53310ed44e61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Army Learning Library 2024 AI Search Configuration</sys_name>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name>sys_search_context_config_fb2afebe1781de10fd6b53310ed44e61</sys_update_name>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-10-08 20:18:25</sys_updated_on>
+        <ts_index_group/>
+        <view/>
+    </sys_search_context_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=fb2afebe1781de10fd6b53310ed44e61"/>
+</record_update>

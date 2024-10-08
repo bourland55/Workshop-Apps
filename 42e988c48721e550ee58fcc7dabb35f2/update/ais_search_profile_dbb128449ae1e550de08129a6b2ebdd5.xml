@@ -6,7 +6,7 @@
         <genius_result_assembly/>
         <label>Army Learning Library search profile</label>
         <name>x_snc_army_learn_0_ujbhzii_search_profile</name>
-        <publish_id>1a8e58fa-df6c-441c-ae42-dce89f4cc61e</publish_id>
+        <publish_id>9d87a86c-b3f3-4b4c-82a4-68126c67de27</publish_id>
         <qna_model_id>bert-qa-model-1.1.6</qna_model_id>
         <state>PUBLISHED</state>
         <sys_class_name>ais_search_profile</sys_class_name>

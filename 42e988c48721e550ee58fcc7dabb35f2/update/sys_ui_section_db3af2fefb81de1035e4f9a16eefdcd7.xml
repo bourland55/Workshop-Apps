@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="db3af2fefb81de1035e4f9a16eefdcd7" sys_domain="global" table="x_snc_army_learn_0_recommendation" version="3" view="workspace-army-learning-library-2024-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 21:15:09</sys_created_on>
+            <sys_id>6327037efb05de1035e4f9a16eefdc61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_army_learn_0_recommendation" sys_domain="global" view="772afebef281de101e6f90f8ee097261">db3af2fefb81de1035e4f9a16eefdcd7</sys_ui_section>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 21:15:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>event</element>
+            <position>1</position>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 21:15:09</sys_created_on>
+            <sys_id>af27037efb05de1035e4f9a16eefdc61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_army_learn_0_recommendation" sys_domain="global" view="772afebef281de101e6f90f8ee097261">db3af2fefb81de1035e4f9a16eefdcd7</sys_ui_section>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 21:15:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sustain_or_improve</element>
+            <position>2</position>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 21:15:09</sys_created_on>
+            <sys_id>a727037efb05de1035e4f9a16eefdc62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_army_learn_0_recommendation" sys_domain="global" view="772afebef281de101e6f90f8ee097261">db3af2fefb81de1035e4f9a16eefdcd7</sys_ui_section>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 21:15:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>article_created</element>
+            <position>3</position>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 21:15:09</sys_created_on>
+            <sys_id>af27037efb05de1035e4f9a16eefdc62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_army_learn_0_recommendation" sys_domain="global" view="772afebef281de101e6f90f8ee097261">db3af2fefb81de1035e4f9a16eefdcd7</sys_ui_section>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 21:15:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>retrain</element>
+            <position>4</position>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 21:15:09</sys_created_on>
+            <sys_id>a727037efb05de1035e4f9a16eefdc63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_army_learn_0_recommendation" sys_domain="global" view="772afebef281de101e6f90f8ee097261">db3af2fefb81de1035e4f9a16eefdcd7</sys_ui_section>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 21:15:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 21:15:09</sys_created_on>
+            <sys_id>af27037efb05de1035e4f9a16eefdc63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_army_learn_0_recommendation" sys_domain="global" view="772afebef281de101e6f90f8ee097261">db3af2fefb81de1035e4f9a16eefdcd7</sys_ui_section>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 21:15:09</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>6</position>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 21:15:09</sys_created_on>
+            <sys_id>a727037efb05de1035e4f9a16eefdc64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_army_learn_0_recommendation" sys_domain="global" view="772afebef281de101e6f90f8ee097261">db3af2fefb81de1035e4f9a16eefdcd7</sys_ui_section>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 21:15:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>7</position>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 21:15:09</sys_created_on>
+            <sys_id>af27037efb05de1035e4f9a16eefdc64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_army_learn_0_recommendation" sys_domain="global" view="772afebef281de101e6f90f8ee097261">db3af2fefb81de1035e4f9a16eefdcd7</sys_ui_section>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 21:15:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>war_fighting_functions</element>
+            <position>8</position>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 21:15:09</sys_created_on>
+            <sys_id>a727037efb05de1035e4f9a16eefdc65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_army_learn_0_recommendation" sys_domain="global" view="772afebef281de101e6f90f8ee097261">db3af2fefb81de1035e4f9a16eefdcd7</sys_ui_section>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 21:15:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>9</position>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 21:15:09</sys_created_on>
+            <sys_id>af27037efb05de1035e4f9a16eefdc65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_army_learn_0_recommendation" sys_domain="global" view="772afebef281de101e6f90f8ee097261">db3af2fefb81de1035e4f9a16eefdcd7</sys_ui_section>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 21:15:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>concur_or_non_concur</element>
+            <position>10</position>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 21:15:09</sys_created_on>
+            <sys_id>a727037efb05de1035e4f9a16eefdc66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_army_learn_0_recommendation" sys_domain="global" view="772afebef281de101e6f90f8ee097261">db3af2fefb81de1035e4f9a16eefdcd7</sys_ui_section>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 21:15:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 21:15:09</sys_created_on>
+            <sys_id>af27037efb05de1035e4f9a16eefdc66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_army_learn_0_recommendation" sys_domain="global" view="772afebef281de101e6f90f8ee097261">db3af2fefb81de1035e4f9a16eefdcd7</sys_ui_section>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 21:15:09</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>explanation_for_retrain</element>
+            <position>12</position>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 21:15:09</sys_created_on>
+            <sys_id>a727037efb05de1035e4f9a16eefdc67</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_army_learn_0_recommendation" sys_domain="global" view="772afebef281de101e6f90f8ee097261">db3af2fefb81de1035e4f9a16eefdcd7</sys_ui_section>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 21:15:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>13</position>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 21:15:09</sys_created_on>
+            <sys_id>af27037efb05de1035e4f9a16eefdc67</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_army_learn_0_recommendation" sys_domain="global" view="772afebef281de101e6f90f8ee097261">db3af2fefb81de1035e4f9a16eefdcd7</sys_ui_section>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 21:15:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>14</position>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 21:15:09</sys_created_on>
+            <sys_id>a727037efb05de1035e4f9a16eefdc68</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_army_learn_0_recommendation" sys_domain="global" view="772afebef281de101e6f90f8ee097261">db3af2fefb81de1035e4f9a16eefdcd7</sys_ui_section>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 21:15:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_army_learn_0_recommendation</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>david.bourland</sys_created_by>
+            <sys_created_on>2024-10-08 20:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>db3af2fefb81de1035e4f9a16eefdcd7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_army_learn_0_recommendation</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+            <sys_update_name>sys_ui_section_db3af2fefb81de1035e4f9a16eefdcd7</sys_update_name>
+            <sys_updated_by>david.bourland</sys_updated_by>
+            <sys_updated_on>2024-10-08 20:18:37</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace Army Learning Library 2024 0" name="workspace-army-learning-library-2024-0">772afebef281de101e6f90f8ee097261</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

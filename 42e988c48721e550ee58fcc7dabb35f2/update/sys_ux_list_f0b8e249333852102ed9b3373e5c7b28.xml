@@ -3,7 +3,7 @@
         <active>true</active>
         <category display_value="Knowledge Articles">0998e209333852102ed9b3373e5c7bd3</category>
         <columns>number,published,topic,category,workflow_state,short_description,sys_updated_on</columns>
-        <condition table="kb_knowledge">kb_knowledge_base=dd99aac9333852102ed9b3373e5c7b5b<item display_table="kb_knowledge_base" display_value="Army Learning Library" endquery="false" field="kb_knowledge_base" goto="false" newquery="false" operator="=" or="false" value="dd99aac9333852102ed9b3373e5c7b5b"/>
+        <condition table="kb_knowledge">kb_knowledge_base=dd99aac9333852102ed9b3373e5c7b5b<item endquery="false" field="kb_knowledge_base" goto="false" newquery="false" operator="=" or="false" value="dd99aac9333852102ed9b3373e5c7b5b"/>
         </condition>
         <configuration display_value="Army Learning Library_menu_config">e0c1684487e1e550ee58fcc7dabb35d5</configuration>
         <group_by_column/>

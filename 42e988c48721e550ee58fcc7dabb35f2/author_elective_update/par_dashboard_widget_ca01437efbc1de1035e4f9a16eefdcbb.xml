@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">4201437efbc1de1035e4f9a16eefdcb9</canvas>
+        <component display_value="Calendar Report">259e0221ff18a75c5f5f0fb28fa5d32f</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","scoreSize":"md","headingPosition":"top","sparklineStyle":"area","scoreIcon":"","iconStyle":"background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"colorConfig":{"type":"default"},"newReporting":false,"additionalGroupByConfig":[],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"refreshRequest":"","showAdditionalGroupBySelector":false,"dataPassthrough":null,"groupBy":null,"sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"enableCustomEmptyState":false,"componentId":"i242rhy4","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"filterConfigurations":"@state.parFilters","contextMenuActions":[],"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":"previous","period":"M","dateFormat":"default","noDebounce":"","table":"x_snc_army_learn_0_event","reportSource":"","encodedQuery":"","startDateField":"expected_start","endDateField":"work_end","eventDisplayFields":"event_type,short_description","componentTitle":"","showFilterOverview":true,"showDescription":true,"componentDescription":"","viewType":"MONTH","eventColor":""}</component_props>
+        <h>22</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-10-08 20:48:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ca01437efbc1de1035e4f9a16eefdcbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name>par_dashboard_widget_ca01437efbc1de1035e4f9a16eefdcbb</sys_update_name>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-10-08 20:48:17</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</application>
+        <file_path/>
+        <instance_id>989cb9051b5042d065324089bd4bcb5c</instance_id>
+        <instance_name>lcliangmissionwf</instance_name>
+        <name>par_dashboard_widget_ca01437efbc1de1035e4f9a16eefdcbb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">4201437efbc1de1035e4f9a16eefdcb9</canvas><component display_value="Calendar Report">259e0221ff18a75c5f5f0fb28fa5d32f</component><component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","scoreSize":"md","headingPosition":"top","sparklineStyle":"area","scoreIcon":"","iconStyle":"background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"colorConfig":{"type":"default"},"newReporting":false,"additionalGroupByConfig":[],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"refreshRequest":"","showAdditionalGroupBySelector":false,"dataPassthrough":null,"groupBy":null,"sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"enableCustomEmptyState":false,"componentId":"i242rhy4","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"filterConfigurations":"@state.parFilters","contextMenuActions":[],"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":"previous","period":"M","dateFormat":"default","noDebounce":"","table":"x_snc_army_learn_0_event","reportSource":"","encodedQuery":"","startDateField":"expected_start","endDateField":"work_end","eventDisplayFields":"event_type,short_description","componentTitle":"","showFilterOverview":true,"showDescription":true,"componentDescription":"","viewType":"MONTH","eventColor":""}</component_props><h>22</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>david.bourland</sys_created_by><sys_created_on>2024-10-08 20:48:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ca01437efbc1de1035e4f9a16eefdcbb</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package><sys_policy/><sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope><sys_update_name>par_dashboard_widget_ca01437efbc1de1035e4f9a16eefdcbb</sys_update_name><sys_updated_by>david.bourland</sys_updated_by><sys_updated_on>2024-10-08 20:48:17</sys_updated_on><visualization/><w>48</w><widget_props/><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1680760506</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>8ec2a106fbb81a50c825f663ceefdcb0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-10-08 20:48:17</sys_created_on>
+        <sys_id>8201437efbc1de1035e4f9a16eefdcbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1926de3c8f20000001</sys_recorded_at>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-10-08 20:48:17</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>4601437ef3c1de10283e364827cd7cbd</update_guid>
+        <update_guid_history>4601437ef3c1de10283e364827cd7cbd:-1680760506</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">0601437efbc1de1035e4f9a16eefdcd2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-10-08 20:48:18</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>62eaf2ab0d5f490d9b363ceb899925b9</sys_id>
+        <sys_metadata>ca01437efbc1de1035e4f9a16eefdcbb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_scope_delete display_value="">67990ff0666949ac9fef0df43a58d010</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_ca01437efbc1de1035e4f9a16eefdcbb</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_ca01437efbc1de1035e4f9a16eefdcbb">8201437efbc1de1035e4f9a16eefdcbe</sys_update_version>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-10-08 20:48:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
