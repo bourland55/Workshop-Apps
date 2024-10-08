@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=48578485000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=50119600000,viewActivatedIn=diagramming</attributes>
         <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -12,17 +12,17 @@
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description>used to create articles with recommendations</description>
         <display_name_after_preview/>
-        <flow_priority/>
+        <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>knowledge_article_main</internal_name>
-        <label_cache>[{"name":"Updated_1.current.recommendation","label":"Trigger - Record Updated➛Recommendation Record➛Recommendation","reference":"","reference_display":"Recommendation","type":"string","base_type":"string","parent_table_name":"x_snc_army_learn_0_recommendation","column_name":"recommendation"},{"name":"Updated_1.current.discussion","label":"Trigger - Record Updated➛Recommendation Record➛Discussion","reference":"","reference_display":"Discussion","type":"string","base_type":"string","parent_table_name":"x_snc_army_learn_0_recommendation","column_name":"discussion"},{"name":"Updated_1.current.event.short_description","label":"Trigger - Record Updated➛Recommendation Record➛Event➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_snc_army_learn_0_event","column_name":"short_description"}]</label_cache>
+        <label_cache>[{"name":"Updated_1.current.event.short_description","label":"Trigger - Record Updated➛Recommendation Record➛Event➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_snc_army_learn_0_event","column_name":"short_description"},{"name":"Updated_1.current.discussion","label":"Trigger - Record Updated➛Recommendation Record➛Discussion","reference":"","reference_display":"Discussion","type":"string","base_type":"string","parent_table_name":"x_snc_army_learn_0_recommendation","column_name":"discussion"},{"name":"Updated_1.current.recommendation","label":"Trigger - Record Updated➛Recommendation Record➛Recommendation","reference":"","reference_display":"Recommendation","type":"string","base_type":"string","parent_table_name":"x_snc_army_learn_0_recommendation","column_name":"recommendation"},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Recommendation Record","reference":"x_snc_army_learn_0_recommendation","reference_display":"Recommendation","type":"reference","base_type":"reference","usedInstances":{"1eacdfc3-cd88-4bd5-b4e6-40a5d90964f7":["record"]},"attributes":{}}]</label_cache>
         <master_snapshot>c08e3ac087a52950ee58fcc7dabb3560</master_snapshot>
         <name>Knowledge Article Main</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
         <remote_trigger_id>047503c087e52950ee58fcc7dabb359c</remote_trigger_id>
-        <run_as>user</run_as>
+        <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c5ccb6cc87652950ee58fcc7dabb35ee</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Knowledge Article Main</sys_name>
         <sys_overrides/>
         <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
@@ -43,7 +43,7 @@
         <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
         <sys_update_name>sys_hub_flow_c5ccb6cc87652950ee58fcc7dabb35ee</sys_update_name>
         <sys_updated_by>david.bourland</sys_updated_by>
-        <sys_updated_on>2024-09-20 22:25:46</sys_updated_on>
+        <sys_updated_on>2024-10-08 18:31:00</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=c5ccb6cc87652950ee58fcc7dabb35ee"/>
@@ -80,14 +80,14 @@
         <identifier>c5ccb6cc87652950ee58fcc7dabb35ee</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>david.bourland</sys_created_by>
-        <sys_created_on>2024-09-20 22:25:44</sys_created_on>
-        <sys_id>0aba6e4d333852102ed9b3373e5c7bbd</sys_id>
+        <sys_created_on>2024-10-08 18:30:59</sys_created_on>
+        <sys_id>7291ae3afbcd9e1035e4f9a16eefdc8f</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>david.bourland</sys_updated_by>
-        <sys_updated_on>2024-09-20 22:25:44</sys_updated_on>
+        <sys_updated_on>2024-10-08 18:30:59</sys_updated_on>
         <trigger display_value="">047503c087e52950ee58fcc7dabb359c</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=c5ccb6cc87652950ee58fcc7dabb35ee^sys_idNOT IN0aba6e4d333852102ed9b3373e5c7bbd"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=c5ccb6cc87652950ee58fcc7dabb35ee^sys_idNOT IN7291ae3afbcd9e1035e4f9a16eefdc8f"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=c5ccb6cc87652950ee58fcc7dabb35ee^sys_idNOT INea7ef6c087a52950ee58fcc7dabb352c"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -98,10 +98,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-08 15:31:45</sys_created_on>
         <sys_id>ea7ef6c087a52950ee58fcc7dabb352c</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>david.bourland</sys_updated_by>
-        <sys_updated_on>2024-09-20 22:25:45</sys_updated_on>
+        <sys_updated_on>2024-10-08 18:31:00</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -229,14 +229,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-08 15:31:45</sys_created_on>
         <sys_id>227ef6c087a52950ee58fcc7dabb3527</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.bourland</sys_updated_by>
-        <sys_updated_on>2024-09-20 22:25:45</sys_updated_on>
+        <sys_updated_on>2024-10-08 18:30:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -254,23 +254,23 @@
         <label/>
         <name>FDCollection</name>
         <namespace>FlowDesigner</namespace>
-        <scope_name>global</scope_name>
+        <scope_name>e80cdf0fc330301021f5e81aa840dd3e</scope_name>
         <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_created_on>2022-05-17 08:17:15</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
-        <sys_mod_count>101</sys_mod_count>
+        <sys_id>1d0e064587e745507cc54226dabb3585</sys_id>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
-        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">36dcab7f3bc20210514f069aa4e45a43</sys_package>
+        <sys_package display_value="">e80cdf0fc330301021f5e81aa840dd3e</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="">e80cdf0fc330301021f5e81aa840dd3e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <sys_updated_on>2022-05-17 12:31:17</sys_updated_on>
         <type>complex_object_collection</type>
     </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
@@ -420,14 +420,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-08 15:31:45</sys_created_on>
         <sys_id>ae7eba8087a52950ee58fcc7dabb35d3</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.bourland</sys_updated_by>
-        <sys_updated_on>2024-09-20 22:25:45</sys_updated_on>
+        <sys_updated_on>2024-10-08 18:30:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -443,7 +443,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ae7eba8087a52950ee58fcc7dabb35d3"/>
     <sys_hub_flow_output action="delete_multiple" query="model=c5ccb6cc87652950ee58fcc7dabb35ee"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=c5ccb6cc87652950ee58fcc7dabb35ee"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=c5ccb6cc87652950ee58fcc7dabb35ee^sys_idNOT IN6a7ef6c087a52950ee58fcc7dabb3558"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=c5ccb6cc87652950ee58fcc7dabb35ee^sys_idNOT IN6a7ef6c087a52950ee58fcc7dabb3558,82fd5a32fbcd9e1035e4f9a16eefdc16"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -460,10 +460,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-08 15:31:46</sys_created_on>
         <sys_id>6a7ef6c087a52950ee58fcc7dabb3558</sys_id>
-        <sys_mod_count>72</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
         <sys_updated_by>david.bourland</sys_updated_by>
-        <sys_updated_on>2024-09-20 22:25:45</sys_updated_on>
+        <sys_updated_on>2024-10-08 18:31:00</sys_updated_on>
         <ui_id>f267f59d-4f4c-4da0-9f92-baf33a5dbb55</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6a7ef6c087a52950ee58fcc7dabb3558"/>
@@ -512,6 +512,96 @@ Event: {{Updated_1.current.event.short_description}}^kb_category={"display":"Squ
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=6a7ef6c087a52950ee58fcc7dabb3558"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=6a7ef6c087a52950ee58fcc7dabb3558"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Knowledge Article Main">c5ccb6cc87652950ee58fcc7dabb35ee</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-10-08 18:15:06</sys_created_on>
+        <sys_id>82fd5a32fbcd9e1035e4f9a16eefdc16</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-10-08 18:31:00</sys_updated_on>
+        <ui_id>1eacdfc3-cd88-4bd5-b4e6-40a5d90964f7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=82fd5a32fbcd9e1035e4f9a16eefdc16"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>82fd5a32fbcd9e1035e4f9a16eefdc16</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-10-08 18:15:06</sys_created_on>
+        <sys_id>8afd5a32fbcd9e1035e4f9a16eefdc18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-10-08 18:15:06</sys_updated_on>
+        <value>=</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>82fd5a32fbcd9e1035e4f9a16eefdc16</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-10-08 18:15:06</sys_created_on>
+        <sys_id>c2fd5a32fbcd9e1035e4f9a16eefdc19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-10-08 18:15:06</sys_updated_on>
+        <value>x_snc_army_learn_0_recommendation</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=82fd5a32fbcd9e1035e4f9a16eefdc16"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>82fd5a32fbcd9e1035e4f9a16eefdc16</id>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-10-08 18:15:06</sys_created_on>
+        <sys_id>0afd5a32fbcd9e1035e4f9a16eefdc18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-10-08 18:15:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>82fd5a32fbcd9e1035e4f9a16eefdc16</id>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-10-08 18:15:06</sys_created_on>
+        <sys_id>8efd5a32fbcd9e1035e4f9a16eefdc17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-10-08 18:15:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>82fd5a32fbcd9e1035e4f9a16eefdc16</id>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-10-08 18:15:06</sys_created_on>
+        <sys_id>46fd5a32fbcd9e1035e4f9a16eefdc18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-10-08 18:15:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=82fd5a32fbcd9e1035e4f9a16eefdc16"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=82fd5a32fbcd9e1035e4f9a16eefdc16"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=c5ccb6cc87652950ee58fcc7dabb35ee"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=c5ccb6cc87652950ee58fcc7dabb35ee"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=c5ccb6cc87652950ee58fcc7dabb35ee"/>
@@ -603,14 +693,14 @@ Event: {{Updated_1.current.event.short_description}}^kb_category={"display":"Squ
         <description>used to create articles with recommendations</description>
         <flow_priority/>
         <internal_name>knowledge_article_main</internal_name>
-        <label_cache>[{"name":"Updated_1.current.event","label":"Trigger - Record Updated➛Recommendation Record➛Event","reference":"x_snc_army_learn_0_army_event","reference_display":"Army Event","type":"reference","base_type":"reference","parent_table_name":"x_snc_army_learn_0_recommendation","column_name":"event"},{"name":"Updated_1.current.recommendation","label":"Trigger - Record Updated➛Recommendation Record➛Recommendation","reference":"","reference_display":"Recommendation","type":"string","base_type":"string","parent_table_name":"x_snc_army_learn_0_recommendation","column_name":"recommendation"},{"name":"Updated_1.current.discussion","label":"Trigger - Record Updated➛Recommendation Record➛Discussion","reference":"","reference_display":"Discussion","type":"string","base_type":"string","parent_table_name":"x_snc_army_learn_0_recommendation","column_name":"discussion"},{"name":"Updated_1.current.event.title","label":"Trigger - Record Updated➛Recommendation Record➛Event➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_snc_army_learn_0_army_event","column_name":"title"},{"name":"Updated_1.current.event.short_description","label":"Trigger - Record Updated➛Recommendation Record➛Event➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_snc_army_learn_0_event","column_name":"short_description"}]</label_cache>
+        <label_cache>[{"name":"Updated_1.current.event.short_description","label":"Trigger - Record Updated➛Recommendation Record➛Event➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_snc_army_learn_0_event","column_name":"short_description"},{"name":"Updated_1.current.discussion","label":"Trigger - Record Updated➛Recommendation Record➛Discussion","reference":"","reference_display":"Discussion","type":"string","base_type":"string","parent_table_name":"x_snc_army_learn_0_recommendation","column_name":"discussion"},{"name":"Updated_1.current.recommendation","label":"Trigger - Record Updated➛Recommendation Record➛Recommendation","reference":"","reference_display":"Recommendation","type":"string","base_type":"string","parent_table_name":"x_snc_army_learn_0_recommendation","column_name":"recommendation"},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Recommendation Record","reference":"x_snc_army_learn_0_recommendation","reference_display":"Recommendation","type":"reference","base_type":"reference","usedInstances":{"1eacdfc3-cd88-4bd5-b4e6-40a5d90964f7":["record"]},"attributes":{}}]</label_cache>
         <master>true</master>
         <name>Knowledge Article Main</name>
         <natlang/>
         <outputs/>
         <parent_flow display_value="Knowledge Article Main">c5ccb6cc87652950ee58fcc7dabb35ee</parent_flow>
         <remote_trigger_id/>
-        <run_as>user</run_as>
+        <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <status>published</status>
@@ -620,7 +710,7 @@ Event: {{Updated_1.current.event.short_description}}^kb_category={"display":"Squ
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c08e3ac087a52950ee58fcc7dabb3560</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -628,7 +718,7 @@ Event: {{Updated_1.current.event.short_description}}^kb_category={"display":"Squ
         <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.bourland</sys_updated_by>
-        <sys_updated_on>2024-09-20 22:25:44</sys_updated_on>
+        <sys_updated_on>2024-10-08 18:30:59</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=c08e3ac087a52950ee58fcc7dabb3560"/>
@@ -643,10 +733,10 @@ Event: {{Updated_1.current.event.short_description}}^kb_category={"display":"Squ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-08 15:31:53</sys_created_on>
         <sys_id>9c8e3ac087a52950ee58fcc7dabb35af</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>david.bourland</sys_updated_by>
-        <sys_updated_on>2024-09-20 22:25:45</sys_updated_on>
+        <sys_updated_on>2024-10-08 18:30:59</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -715,23 +805,23 @@ Event: {{Updated_1.current.event.short_description}}^kb_category={"display":"Squ
         <label/>
         <name>FDCollection</name>
         <namespace>FlowDesigner</namespace>
-        <scope_name>global</scope_name>
+        <scope_name>e80cdf0fc330301021f5e81aa840dd3e</scope_name>
         <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_created_on>2022-05-17 08:17:15</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
-        <sys_mod_count>101</sys_mod_count>
+        <sys_id>1d0e064587e745507cc54226dabb3585</sys_id>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
-        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">36dcab7f3bc20210514f069aa4e45a43</sys_package>
+        <sys_package display_value="">e80cdf0fc330301021f5e81aa840dd3e</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Global">global</sys_scope>
+        <sys_scope display_value="">e80cdf0fc330301021f5e81aa840dd3e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <sys_updated_on>2022-05-17 12:31:17</sys_updated_on>
         <type>complex_object_collection</type>
     </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
@@ -881,14 +971,14 @@ Event: {{Updated_1.current.event.short_description}}^kb_category={"display":"Squ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-08 15:31:52</sys_created_on>
         <sys_id>948e3ac087a52950ee58fcc7dabb3583</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.bourland</sys_updated_by>
-        <sys_updated_on>2024-09-20 22:25:44</sys_updated_on>
+        <sys_updated_on>2024-10-08 18:30:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -965,14 +1055,14 @@ Event: {{Updated_1.current.event.short_description}}^kb_category={"display":"Squ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-08 15:31:52</sys_created_on>
         <sys_id>c48e3ac087a52950ee58fcc7dabb3562</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.bourland</sys_updated_by>
-        <sys_updated_on>2024-09-20 22:25:44</sys_updated_on>
+        <sys_updated_on>2024-10-08 18:30:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -988,7 +1078,97 @@ Event: {{Updated_1.current.event.short_description}}^kb_category={"display":"Squ
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c48e3ac087a52950ee58fcc7dabb3562"/>
     <sys_hub_flow_output action="delete_multiple" query="model=c08e3ac087a52950ee58fcc7dabb3560"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=c08e3ac087a52950ee58fcc7dabb3560"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=c08e3ac087a52950ee58fcc7dabb3560^sys_idNOT IN948e3ac087a52950ee58fcc7dabb35ae"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=c08e3ac087a52950ee58fcc7dabb3560^sys_idNOT IN0c316ef6fbcd9e1035e4f9a16eefdc5d,948e3ac087a52950ee58fcc7dabb35ae"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Knowledge Article Main">c08e3ac087a52950ee58fcc7dabb3560</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-10-08 18:29:09</sys_created_on>
+        <sys_id>0c316ef6fbcd9e1035e4f9a16eefdc5d</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-10-08 18:30:59</sys_updated_on>
+        <ui_id>1eacdfc3-cd88-4bd5-b4e6-40a5d90964f7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0c316ef6fbcd9e1035e4f9a16eefdc5d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0c316ef6fbcd9e1035e4f9a16eefdc5d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-10-08 18:29:09</sys_created_on>
+        <sys_id>80316ef6fbcd9e1035e4f9a16eefdc60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-10-08 18:29:09</sys_updated_on>
+        <value>=</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0c316ef6fbcd9e1035e4f9a16eefdc5d</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-10-08 18:29:09</sys_created_on>
+        <sys_id>c8316ef6fbcd9e1035e4f9a16eefdc60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-10-08 18:29:09</sys_updated_on>
+        <value>x_snc_army_learn_0_recommendation</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0c316ef6fbcd9e1035e4f9a16eefdc5d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>0c316ef6fbcd9e1035e4f9a16eefdc5d</id>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-10-08 18:29:09</sys_created_on>
+        <sys_id>00316ef6fbcd9e1035e4f9a16eefdc60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-10-08 18:29:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>0c316ef6fbcd9e1035e4f9a16eefdc5d</id>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-10-08 18:29:09</sys_created_on>
+        <sys_id>84316ef6fbcd9e1035e4f9a16eefdc5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-10-08 18:29:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>0c316ef6fbcd9e1035e4f9a16eefdc5d</id>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-10-08 18:29:09</sys_created_on>
+        <sys_id>4c316ef6fbcd9e1035e4f9a16eefdc5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-10-08 18:29:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0c316ef6fbcd9e1035e4f9a16eefdc5d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0c316ef6fbcd9e1035e4f9a16eefdc5d"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1005,10 +1185,10 @@ Event: {{Updated_1.current.event.short_description}}^kb_category={"display":"Squ
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-08 15:31:53</sys_created_on>
         <sys_id>948e3ac087a52950ee58fcc7dabb35ae</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
         <sys_updated_by>david.bourland</sys_updated_by>
-        <sys_updated_on>2024-09-20 22:25:44</sys_updated_on>
+        <sys_updated_on>2024-10-08 18:30:59</sys_updated_on>
         <ui_id>f267f59d-4f4c-4da0-9f92-baf33a5dbb55</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=948e3ac087a52950ee58fcc7dabb35ae"/>
@@ -1137,7 +1317,7 @@ Event: {{Updated_1.current.event.short_description}}^kb_category={"display":"Squ
     <sys_hub_flow action="UPDATE">
         <sys_id>c5ccb6cc87652950ee58fcc7dabb35ee</sys_id>
         <latest_snapshot>c08e3ac087a52950ee58fcc7dabb3560</latest_snapshot>
-        <compiler_build>glide-washingtondc-12-20-2023__patch7-08-21-2024_08-31-2024_1809.zip</compiler_build>
+        <compiler_build>glide-washingtondc-12-20-2023__patch6-07-17-2024_07-27-2024_1026.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=c5ccb6cc87652950ee58fcc7dabb35ee^sys_idNOT IN648e3ac087a52950ee58fcc7dabb35d9"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
@@ -1150,11 +1330,11 @@ Event: {{Updated_1.current.event.short_description}}^kb_category={"display":"Squ
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>648e3ac087a52950ee58fcc7dabb35d9</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>david.bourland</sys_updated_by>
-        <sys_updated_on>2024-09-20 22:25:44</sys_updated_on>
+        <sys_updated_on>2024-10-08 18:29:11</sys_updated_on>
         <trigger display_value="">047503c087e52950ee58fcc7dabb359c</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=c5ccb6cc87652950ee58fcc7dabb35ee"/>
