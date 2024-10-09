@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_contribute_mtom">
+    <kb_uc_can_contribute_mtom action="INSERT_OR_UPDATE">
+        <kb_knowledge_base display_value="Army Learning Library">61b176bafb41de1035e4f9a16eefdc94</kb_knowledge_base>
+        <sys_class_name>kb_uc_can_contribute_mtom</sys_class_name>
+        <sys_created_by>david.bourland</sys_created_by>
+        <sys_created_on>2024-10-08 21:58:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5b21df36fb85de1035e4f9a16eefdcd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Army Learning Library.All Users</sys_name>
+        <sys_package display_value="Army Learning Library" source="x_snc_army_learn_0">42e988c48721e550ee58fcc7dabb35f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Army Learning Library">42e988c48721e550ee58fcc7dabb35f2</sys_scope>
+        <sys_update_name>kb_uc_can_contribute_mtom_5b21df36fb85de1035e4f9a16eefdcd3</sys_update_name>
+        <sys_updated_by>david.bourland</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:58:50</sys_updated_on>
+        <user_criteria display_value="All Users">aa60569553b30110e003ddeeff7b12f0</user_criteria>
+    </kb_uc_can_contribute_mtom>
+</record_update>
